@@ -1,3 +1,7 @@
+import os
+def clear():
+    os.system('clear')
+
 import random
 var = ["Stone", "Paper", "Scissor"]
 
@@ -11,6 +15,7 @@ for i in range (0 , vat+vak):
     print("Press 1 For Stone" , "\nPress 2 For Paper" "\nPress 3 For Scissor")
     var2 = int(input("Enter Your Choice:-"))
     time -= 1
+    clear()
     if var2==1:
         var3="Stone"
     elif var2==2:
