@@ -1,3 +1,4 @@
+source ./bomber.sh
 curl -X POST 'https://www.dealshare.in/api/1.0/get-otp' \
   -H 'authority: www.dealshare.in' \
   -H 'accept: application/json, text/plain, */*' \
