@@ -1,0 +1,51 @@
+curl 'https://www.pakwheels.com/login-with-mobile/resend-pin-via-call' \
+  -H 'authority: www.pakwheels.com' \
+  -H 'accept: */*' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'content-type: application/x-www-form-urlencoded; charset=UTF-8' \
+  -H 'cookie: userfp=7da2377a309b270deedd431db64725f5; _pakwheels_sessions=BAh7DEkiD3Nlc3Npb25faWQGOgZFVEkiJTIwZTk0NDhlZDFmMjJiZGZjYTkzMGQ1MDEwZmUwODE5BjsAVEkiFWxhc3RfYWN0aW9uX3RpbWUGOwBGVTogQWN0aXZlU3VwcG9ydDo6VGltZVdpdGhab25lWwhJdToJVGltZRwyMDIzLTA0LTI1IDE2OjEzOjQ2IFVUQwY7AEZJIgxLYXJhY2hpBjsAVEl1OwccMjAyMy0wNC0yNSAyMToxMzo0NiBVVEMGOwBGSSITcGFrd2hlZWxzX21vZGUGOwBGSSIIQ2FyBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMU1SZDNyVjMwSVJmRFpyUy92T3lzYUxTODZ0TXJpQWh5a1pqZTJTaURWSlE9BjsARkkiEnJldHVybl90b191cmwGOwBGIh9odHRwczovL3d3dy5wYWt3aGVlbHMuY29tL0kiDnNpdGVfdHlwZQY7AEZJIghjYXIGOwBUSSIZaGlkZV92aWFfY2FsbF9vcHRpb24GOwBGVA%3D%3D--c36dad054d1c61ca84a6c595a5203eef97975f61' \
+  -H 'origin: https://www.pakwheels.com' \
+  -H 'referer: https://www.pakwheels.com/' \
+  -H 'sec-ch-ua: "Chromium";v="112", "Google Chrome";v="112", "Not:A-Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36' \
+  -H 'x-requested-with: XMLHttpRequest' \
+  --data-raw 'pin_id=@to' \
+  --compressed
+  
+  curl 'https://endpoints.grocerapps.com/v1/otp/generate' \
+  -H 'authority: endpoints.grocerapps.com' \
+  -H 'accept: application/json' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'content-type: application/json' \
+  -H 'origin: https://grocerapp.pk' \
+  -H 'referer: https://grocerapp.pk/' \
+  -H 'sec-ch-ua: "Chromium";v="112", "Google Chrome";v="112", "Not:A-Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36' \
+  --data-raw '{"phone_number":"€tor","clevertap_id":"30085fea0e2b4cfa8127bacdcbeaed91","type":"call"}' \
+  --compressed
+  
+  curl 'https://tabiyat.pk/api/auth/send-otp-code?number=%2B92€tor&type=VERIFICATION_TYPE_SIGNUP&key=1' \
+  -H 'authority: tabiyat.pk' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'content-type: application/json' \
+  -H 'cookie: token=eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIwSUpaaGlBcTMwTEdxSC05TVRwTGExaGJZdGdPYVA5T25Id3o0OUdxUjRnIn0.eyJleHAiOjE2ODI0MzkwMjMsImlhdCI6MTY4MjQzNzIyMywianRpIjoiY2VlMjg5MjgtMzcyYi00YzQ1LTgwZWMtOGM5ZjgxZWRmZTViIiwiaXNzIjoiaHR0cHM6Ly9rZXljbG9hay1hZG1pbi5tZWR6bm1vcmUuY29tL3JlYWxtcy9tZWR6bm1vcmUiLCJzdWIiOiI2NWIzMjE4My1iZDc5LTRkNzAtYTIyZC1iNDkxNGZjMzY4OTQiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJvcmRlci1tYW5hZ2VtZW50LXN5c3RlbSIsInNlc3Npb25fc3RhdGUiOiJkMDIxYWVkYS05ZTA2LTRjZjItOTFiYS0zODA1NDU5MGNkY2QiLCJhY3IiOiIxIiwiYWxsb3dlZC1vcmlnaW5zIjpbIioiXSwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIlJPTEVfQ1VTVE9NRVIiXX0sInNjb3BlIjoicHJvZmlsZSBlbWFpbCIsInNpZCI6ImQwMjFhZWRhLTllMDYtNGNmMi05MWJhLTM4MDU0NTkwY2RjZCIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwibmFtZSI6Ikd1ZXN0VXNlcjMzM2Y3ZmRjLTEyNzktNDAyMy05MzBlLThiNjZiNDQ2OTJmMiIsInByZWZlcnJlZF91c2VybmFtZSI6IjMzM2Y3ZmRjLTEyNzktNDAyMy05MzBlLThiNjZiNDQ2OTJmMiIsImdpdmVuX25hbWUiOiJHdWVzdFVzZXIzMzNmN2ZkYy0xMjc5LTQwMjMtOTMwZS04YjY2YjQ0NjkyZjIiLCJ1c2VySWQiOiIzMTE0MDcxIiwiZW1haWwiOiJndWVzdHVzZXIzMzNmN2ZkYy0xMjc5LTQwMjMtOTMwZS04YjY2YjQ0NjkyZjJAZ3Vlc3R1c2VyLmNvbSJ9.AIAb1mhpXLLSgxQgrN5DC0EGa_uVuxO13JjPUyur_Ps8o6w_mKw5MpsZG9YUWAsrUB1gl9_o0oDDg8QOz28_H1n0F3NvvORU3sg4p4xq5-KfJ31HZ4v512tcVGsZIfXkFhdUiSHinBeYIGN2umtciaRWWQuvj0EPqGXQfTqiZvSkU3-JiVEP8Afo7i7AwFvhO1uKDol61I7MblOhMLTb7OE9dGt--TqaLHCwoCVhd1x3iKoZBhZw1Kw76CjwZQ3_44wk7CvsX5xZXY9UT6VR70Cx8rw3IrNyi49cuBvjvBmjM7C5PCVFb5p9zjoyitXDTMdwUUXxDS5ohpnUg_xqYQ; refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI3ZjMwNDg2Mi0xYTE4LTQ0YTYtODczYy05ZjM0MmJhOTc0OGIifQ.eyJleHAiOjE2OTc5ODkyMjMsImlhdCI6MTY4MjQzNzIyMywianRpIjoiYTdiMzc3OGItZWI5OC00ZmU1LWIxMmUtNmMwMDcxMzYxYjgyIiwiaXNzIjoiaHR0cHM6Ly9rZXljbG9hay1hZG1pbi5tZWR6bm1vcmUuY29tL3JlYWxtcy9tZWR6bm1vcmUiLCJhdWQiOiJodHRwczovL2tleWNsb2FrLWFkbWluLm1lZHpubW9yZS5jb20vcmVhbG1zL21lZHpubW9yZSIsInN1YiI6IjY1YjMyMTgzLWJkNzktNGQ3MC1hMjJkLWI0OTE0ZmMzNjg5NCIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJvcmRlci1tYW5hZ2VtZW50LXN5c3RlbSIsInNlc3Npb25fc3RhdGUiOiJkMDIxYWVkYS05ZTA2LTRjZjItOTFiYS0zODA1NDU5MGNkY2QiLCJzY29wZSI6InByb2ZpbGUgZW1haWwiLCJzaWQiOiJkMDIxYWVkYS05ZTA2LTRjZjItOTFiYS0zODA1NDU5MGNkY2QifQ.D3PX9Mq-aHJ0_UDa382iC2CbMCLT8rLXnclHEm3iDt4; guestUsername=333f7fdc-1279-4023-930e-8b66b44692f2; userType=GUEST_USER; hubId=5293; _gcl_au=1.1.1431179323.1682437055; _ga=GA1.1.50174246.1682437059; _fbp=fb.1.1682437060990.2053255345; _ga_VG82NRL6SV=GS1.1.1682437059.1.1.1682437225.0.0.0' \
+  -H 'referer: https://tabiyat.pk/' \
+  -H 'sec-ch-ua: "Chromium";v="112", "Google Chrome";v="112", "Not:A-Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36' \
+  --compressed
