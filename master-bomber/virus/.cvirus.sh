@@ -16,6 +16,7 @@ curl 'https://unacademy.com/api/v3/user/user_check/?enable-email=true' \
   -H 'x-platform: 0' \
   --data-raw '{"phone":"€tor","country_code":"IN","otp_type":1,"email":"","send_otp":true,"is_un_teach_user":false}' \
   --compressed > /dev/null 2>&1
+
   
   curl 'https://api.tendercuts.in/otp/v2/generate/' \
   -H 'authority: api.tendercuts.in' \
