@@ -1,4 +1,4 @@
-curl -o key.txt 'https://www.pakwheels.com/login-with-mobile' \
+curl -o $HOME/m-bomber2.O/key.txt 'https://www.pakwheels.com/login-with-mobile' \
   -H 'authority: www.pakwheels.com' \
   -H 'accept: */*' \
   -H 'accept-language: en-US,en;q=0.9' \
